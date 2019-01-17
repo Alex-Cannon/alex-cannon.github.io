@@ -1,0 +1,15 @@
+@import "../../utils/vars.scss";
+
+.project-img-container {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.project-description {
+  h1 { margin-bottom: 0.5em; }
+}

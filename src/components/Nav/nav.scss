@@ -1,0 +1,50 @@
+@import "../../utils/vars.scss";
+
+nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  h3, p {
+    margin: 0;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 0 15% 0 15%;
+  }
+}
+
+.nav-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  padding-right: 0;
+  &:hover {
+    text-decoration: none;
+    h3 {
+      color: $text-dark;
+    }
+    p {
+      text-decoration: underline;
+    }
+  }
+  @media screen and (min-width: $phone) {
+    padding: 1em 3.5em; 
+  }
+}
+
+.nav-right { 
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 0;
+  @media screen and (min-width: $phone) {
+    padding: 1em 3.5em;
+  }
+}
