@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
 import './project.scss';
+import Button from '../../objects/Button/Button.js';
 
 export default class Project extends Component {
   render() {
     return(
       <div className="project-container">
-        <img className="project-img" src={this.props.src} alt={this.props.alt}/>
         <div className="project-description">
-          <h1>Bearbnb</h1>
-          <span>Front End Development</span>
-          <p>Bearbnb is a clone of Airbnb. I worked on the client-side 
-            javascript and css/sass for this project. 
+          <i className="tag text-mute">{this.props.tag}</i>
+          <h1 className="title">{this.props.title}</h1>
+          <p className="description text-mute">{this.props.description}
           </p>
+          <Button href={this.props.projectLink}>View Project</Button>
         </div>
+        <img className="project-img" src={this.props.src} alt={this.props.alt}/>
       </div>
     );
   }

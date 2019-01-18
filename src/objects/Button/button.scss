@@ -1,0 +1,28 @@
+@import '../../utils/vars.scss';
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  margin: 0.25em;
+  padding: 1em;
+  border: 2px solid $text-dark;
+  border-radius: 5px;
+  color: $text-dark;
+  background-color: $text-light;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+  &:first-of-type {
+    margin-left: 0px;
+  }
+  &:last-of-type {
+    margin-right: 0px;
+  }
+  &:hover {
+    color: $text-light;
+    background: $text-dark;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
