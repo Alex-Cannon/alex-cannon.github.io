@@ -1,0 +1,13 @@
+@import "../../utils/vars.scss";
+
+.social-links {
+  font-size: 2.25em;
+  margin-bottom: 1rem;
+  a {
+    margin-right: 1rem; 
+    color: $text-dark; 
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

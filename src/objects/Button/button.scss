@@ -1,11 +1,12 @@
 @import '../../utils/vars.scss';
 
 .btn {
-  display: inline-block;
-  text-align: center;
-  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  height: 60px;
   margin: 0.25em;
-  padding: 1em;
   border: 2px solid $text-dark;
   border-radius: 5px;
   color: $text-dark;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../../components/Nav/Nav.js';
 import Project from '../../components/Project/Project.js';
+import SocialLinks from '../../components/Social/Social.js';
 import Button from '../../objects/Button/Button.js';
 import './landing.scss';
 import './about.scss';
@@ -122,7 +123,8 @@ class About extends Component {
         <div className="about-contact">
           <h1>Contact Me</h1>
           <div className="about-contact-methods">
-            <Button href="mailto:alexcannon2018@gmail.com">Email Me</Button>
+            <Button className="about-contact-email-btn btn" href="mailto:alexcannon2018@gmail.com">Email Me</Button>
+            <SocialLinks/>
           </div>
         </div>
       </div>

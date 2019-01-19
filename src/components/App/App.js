@@ -13,7 +13,10 @@ class App extends Component {
   getRoutes() {
     return ROUTES.map(({path, component: C}) => {
       const render = (props) => {
-        return <C {...props}/>;
+        return <>
+          <C {...props}/>
+          <Footer/>
+        </>;
       };
 
       return <Route key={path} path={path} render={render} exact/>;
@@ -28,7 +31,6 @@ class App extends Component {
           {this.getRoutes()}
           </Switch>
         </Router>
-        <Footer/>
       </div>
     );
   }
