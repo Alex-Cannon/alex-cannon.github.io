@@ -1,0 +1,10 @@
+@import "../../utils/vars.scss";
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-top: 2px dashed $text-dark;
+  border-bottom: 2px dashed $text-dark;
+}

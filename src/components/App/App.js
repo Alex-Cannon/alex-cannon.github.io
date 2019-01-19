@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Footer from '../Footer/Footer.js';
 import './base.scss';
 
 const ROUTES = [{
@@ -27,6 +28,7 @@ class App extends Component {
           {this.getRoutes()}
           </Switch>
         </Router>
+        <Footer/>
       </div>
     );
   }
