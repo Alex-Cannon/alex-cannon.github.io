@@ -12,6 +12,16 @@ import bearbnb from '../../assets/images/bearbnb.jpg';
 import secretSanta from '../../assets/images/secret-santa.jpg';
 import gameLife from '../../assets/images/game_of_life.jpeg';
 import ticTac from '../../assets/images/tic_tac.jpg';
+import simon from '../../assets/images/simon_says.jpeg';
+
+/*
+  To-Do:
+  1) Add testimonials
+  2) Add intro video
+  3) Add Social navbar on right side of screen
+  4) Add "All Projects" section, where my Codepen is linked
+  5) Add cursor "arrow", where users can skip to the next project
+*/
 
 
 export default class Home extends Component {
@@ -61,8 +71,8 @@ class ProjectList extends Component {
         <Project
           title="Bearbnb"
           tag="Front End Development"
-          description="Bearbnb is a clone of Airbnb. Host or schedule a bearbnb with your friendly neighborhood bears. Protip: don't bring honey."
-          projectLink="#"
+          description="Bearbnb is a fully-functional clone of Airbnb. Host or schedule a bearbnb with your friendly neighborhood bears. Protip: don't bring honey."
+          projectLink="http://bearbnb-06.herokuapp.com"
           src={bearbnb}
           alt="Bearbnb clone"
         />
@@ -70,7 +80,7 @@ class ProjectList extends Component {
           title="Secret Santa"
           tag="Full Stack Development"
           description="Your favorite christmas gift exchange--online. Host or join online secret santa events. Invite your friends!"
-          projectLink="#"
+          projectLink="http://secret-santa-13.herokuapp.com"
           src={secretSanta}
           alt="Secret Santa"
         />
@@ -78,7 +88,7 @@ class ProjectList extends Component {
           title="Game of Life"
           tag="Front End Development"
           description="Conway's game of life created with ReactJS. This was a fun one!"
-          projectLink="#"
+          projectLink="https://codepen.io/Alex_Cannon/pen/gxpLJB"
           src={gameLife}
           alt="Conway's game of life"
         />
@@ -86,9 +96,17 @@ class ProjectList extends Component {
           title="Tic Tac Toe"
           tag="Front End Development"
           description="A simple game of tic-tac-toe created with JQuery. Play with a friend, or test your skills against a computer."
-          projectLink="#"
+          projectLink="https://codepen.io/Alex_Cannon/pen/NgMdgo"
           src={ticTac}
-          alt="Conway's game of life"
+          alt="Tic Tac Toe"
+        />
+        <Project
+          title="Memory Machine"
+          tag="Front End Development"
+          description="Simon Says clone developed with HTML, CSS, and JQuery. Can you break my record of 17?"
+          projectLink="https://codepen.io/Alex_Cannon/pen/NgMdgo"
+          src={simon}
+          alt="Simon Says Clone"
         />
       </div>
     );
@@ -108,18 +126,19 @@ class About extends Component {
           <p>On my first voyage, we built <a href="#">Bearbnb</a>. I learned how git worked, advanced styling and ReactJS, and how to collaborate in a team. On my second voyage, as the project manager for a team of 3, we lost a teammate early-on. Regardless, we finished 5 days early!</p>
           <p>I've earned the Front End Development certification from freecodecamp in the past. Now that they have updated their curriculum, I need to renew this certification. I am currently working on 4 additional certifications.</p>
           <p>I also have a <a href="https://devalexcannon.wordpress.com/" target="_blank" noreferer noopener>blog</a>! I try to write at least once a month. I cover topics ranging from project showcases to tutorials to life updates.</p>
-          <p>Below is a quick introduction to the guy who wrote all this. Wait, that's me. Right.</p>
-          <p>Video Link/Intro</p>
+          {/*<p>Below is a quick introduction to the guy who wrote all this. Wait, that's me. Right.</p>
+          <p>Video Link/Intro</p>*/}
           <p>Many Developers, only care about their paycheck. They will do the minimum to get by, take their paycheck, and go, cheating you out of the best of them. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
           <h3 className="about-quote">"Lean just beyond your edge"<br/> - David Deida</h3>
           <p>Thanks for reading! Let's create an impact, together.</p>
         </div>
+        {/* 
         <div className="about-testimonials">
           <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
           <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
           <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
           <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-        </div>
+        </div>*/}
         <div className="about-contact">
           <h1>Contact Me</h1>
           <div className="about-contact-methods">

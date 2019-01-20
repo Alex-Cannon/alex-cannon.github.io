@@ -5,7 +5,7 @@ export default class Button extends Component {
   render() {
     if (this.props.href) {
       return (
-        <a href={this.props.href} className={this.props.className || 'btn'}>
+        <a href={this.props.href} className={this.props.className || 'btn'} target="_blank" noreferer noopener>
           {this.props.children}
         </a>
       );

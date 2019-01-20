@@ -1,4 +1,8 @@
 @import "../../utils/vars.scss";
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
 
 :root {
   font-size: 17px;
@@ -9,7 +13,7 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +32,7 @@ body {
 p {
   font-size: 1em;
   margin-bottom: 1em;
-  line-height: 1.2em;
+  line-height: 1.25em;
 }
 
 a {
