@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.3fe86617.chunk.css",
-  "main.js": "/static/js/main.d5bd29f4.chunk.js",
-  "main.js.map": "/static/js/main.d5bd29f4.chunk.js.map",
-  "static/js/1.d1dd376e.chunk.js": "/static/js/1.d1dd376e.chunk.js",
-  "static/js/1.d1dd376e.chunk.js.map": "/static/js/1.d1dd376e.chunk.js.map",
+  "main.css": "/static/css/main.e8c90ffa.chunk.css",
+  "main.js": "/static/js/main.5c0318c5.chunk.js",
+  "main.js.map": "/static/js/main.5c0318c5.chunk.js.map",
+  "static/js/1.cf6b9d72.chunk.js": "/static/js/1.cf6b9d72.chunk.js",
+  "static/js/1.cf6b9d72.chunk.js.map": "/static/js/1.cf6b9d72.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/face_zoom.jpg": "/static/media/face_zoom.cd3e4908.jpg",
@@ -13,8 +13,8 @@
   "static/media/simon_says.jpeg": "/static/media/simon_says.5e936c28.jpeg",
   "static/media/base.scss": "/static/media/Roboto-Regular.3e1af3ef.ttf",
   "static/media/bearbnb.jpg": "/static/media/bearbnb.71700cd7.jpg",
-  "static/css/main.3fe86617.chunk.css.map": "/static/css/main.3fe86617.chunk.css.map",
+  "static/css/main.e8c90ffa.chunk.css.map": "/static/css/main.e8c90ffa.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3e1c173a39a78b4472b50269883d2e4d.js": "/precache-manifest.3e1c173a39a78b4472b50269883d2e4d.js",
+  "precache-manifest.d4b4888a79ee3a7010b9f03e065118c5.js": "/precache-manifest.d4b4888a79ee3a7010b9f03e065118c5.js",
   "service-worker.js": "/service-worker.js"
 }

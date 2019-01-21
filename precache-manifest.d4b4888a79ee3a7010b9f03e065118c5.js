@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/secret-santa.a6c37ad9.jpg"
   },
   {
-    "revision": "d5bd29f42c02e607e3ed",
-    "url": "/static/css/main.3fe86617.chunk.css"
+    "revision": "5c0318c5a593de9c7234",
+    "url": "/static/css/main.e8c90ffa.chunk.css"
   },
   {
-    "revision": "d1dd376e2b37116a8c42",
-    "url": "/static/js/1.d1dd376e.chunk.js"
+    "revision": "cf6b9d72c22ff4c4b33a",
+    "url": "/static/js/1.cf6b9d72.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/bearbnb.71700cd7.jpg"
   },
   {
-    "revision": "d5bd29f42c02e607e3ed",
-    "url": "/static/js/main.d5bd29f4.chunk.js"
+    "revision": "5c0318c5a593de9c7234",
+    "url": "/static/js/main.5c0318c5.chunk.js"
   },
   {
     "revision": "2d81186ed7c02ec485d053d8a18b9829",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "633b666d9d0a15a96a0e5e357b8a88d2",
+    "revision": "041619d46a802be6b2d68f763c22efe6",
     "url": "/index.html"
   }
 ];
