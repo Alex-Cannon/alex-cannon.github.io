@@ -1,13 +1,48 @@
 @import "../../utils/vars.scss";
 
 .social-links {
-  font-size: 2.25em;
-  margin-bottom: 1rem;
-  a {
-    margin-right: 1rem; 
-    color: $text-dark; 
-    &:last-of-type {
-      margin-right: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2.8rem;
+  margin: 0;
+  .icon {
+    display: inline-block;
+    padding: 0;
+    line-height: 0;
+    margin-right: 0.4em;
+    margin-bottom: 0.2em;
+    color: $text-dark;
+    svg {
+      display: inline-block;
     }
+    &:hover {
+      cursor: pointer;
+      color: darken($accent, 10%);
+    }
+  }
+}
+
+.phone-box {
+  position: relative;
+  height: 2.5rem;
+  border: 2px solid $text-dark;
+  border-radius: 5px;
+  svg {
+    position: absolute;
+    top: -4px;
+    left: 0px;
+  }
+  i {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 1rem 0 3.2rem;
+    font-size: 1rem;
+    color: $text-med;
+  }
+  &:hover {
+    cursor: default !important;
+    color: $text-dark !important;
   }
 }
