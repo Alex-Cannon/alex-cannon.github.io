@@ -13,6 +13,7 @@ import secretSanta from '../../assets/images/secret-santa.jpg';
 import gameLife from '../../assets/images/game_of_life.jpeg';
 import ticTac from '../../assets/images/tic_tac.jpg';
 import simon from '../../assets/images/simon_says.jpeg';
+import ood from '../../assets/images/ood.jpg';
 
 /*
   To-Do:
@@ -85,6 +86,14 @@ class ProjectList extends Component {
           alt="Secret Santa"
         />
         <Project
+          title="Out of Date Tracker"
+          tag="Full Stack Development"
+          description="Out-of-Date tracker created for a dairy manager. Add, edit, delete, search, and sort through your inventory!"
+          projectLink="https://out-of-date-tracker.glitch.me"
+          src={ood}
+          alt="Out-of-Date Tracker"
+        />
+        <Project
           title="Game of Life"
           tag="Front End Development"
           description="Conway's game of life created with ReactJS. This was a fun one!"
@@ -132,13 +141,9 @@ class About extends Component {
           <h3 className="about-quote">"Lean just beyond your edge"<br/> - David Deida</h3>
           <p>Thanks for reading! Let's create an impact, together.</p>
         </div>
-        {/* 
         <div className="about-testimonials">
-          <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-          <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-          <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-          <p>Add testimonial Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-        </div>*/}
+          <p>Alex and I worked on a two months remote full stack development project together. Alex was the team leader and was very organized and productive for the whole duration of the project. Because of Alex's focus and coding skills our group was able to finish the project in the allocated time and fulfill all of our goals. Alex is very knowledgable with the MERN stack and a great problem solver.<br/> <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank" rel="noopener noreferer">- Inna Leikina</a></p>
+        </div>
         <div className="about-contact">
           <h1>Contact Me</h1>
           <div className="about-contact-methods">
