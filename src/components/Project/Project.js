@@ -11,7 +11,10 @@ export default class Project extends Component {
           <h1 className="title">{this.props.title}</h1>
           <p className="description text-mute">{this.props.description}
           </p>
-          <Button href={this.props.projectLink}>View Project</Button>
+          <div className="project-btns">
+            <Button href={this.props.projectLink}>View Live</Button>
+            {this.props.readLink?<a className="btn" href={this.props.readLink} target="_blank" rel="noopener noreferer">Read More</a>:""}
+          </div>
         </div>
         <img className="project-img" src={this.props.src} alt={this.props.alt}/>
       </div>

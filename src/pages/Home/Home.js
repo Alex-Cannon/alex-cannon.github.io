@@ -74,6 +74,7 @@ class ProjectList extends Component {
           tag="Front End Development"
           description="Bearbnb is a fully-functional clone of Airbnb. Host or schedule a bearbnb with your friendly neighborhood bears. Protip: don't bring honey."
           projectLink="http://bearbnb-06.herokuapp.com"
+          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-bearbnb-airbnb-clone/"
           src={bearbnb}
           alt="Bearbnb clone"
         />
@@ -82,6 +83,7 @@ class ProjectList extends Component {
           tag="Full Stack Development"
           description="Your favorite christmas gift exchange--online. Host or join online secret santa events. Invite your friends!"
           projectLink="http://secret-santa-13.herokuapp.com"
+          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-secret-santa-website/"
           src={secretSanta}
           alt="Secret Santa"
         />
@@ -90,6 +92,7 @@ class ProjectList extends Component {
           tag="Full Stack Development"
           description="Out-of-Date tracker created for a dairy manager. Add, edit, delete, search, and sort through your inventory!"
           projectLink="https://out-of-date-tracker.glitch.me"
+          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-out-of-date-tracker/"
           src={ood}
           alt="Out-of-Date Tracker"
         />

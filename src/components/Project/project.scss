@@ -46,3 +46,11 @@
     }
   }
 }
+
+.project-btns {
+  display: flex;
+  flex-wrap: wrap;
+  .btn {
+    margin-left: 0;
+  }
+}
