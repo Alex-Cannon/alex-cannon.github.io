@@ -28,5 +28,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "http://alex-cannon.github.io"
 }

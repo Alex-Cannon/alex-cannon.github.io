@@ -11,7 +11,7 @@ import face from '../../assets/images/face_zoom.jpg';
 import bearbnb from '../../assets/images/bearbnb.jpg';
 import secretSanta from '../../assets/images/secret-santa.jpg';
 import gameLife from '../../assets/images/game_of_life.jpeg';
-import ticTac from '../../assets/images/tic_tac.jpg';
+import fccPortfolio from '../../assets/images/fcc_portfolio.png';
 import simon from '../../assets/images/simon_says.jpeg';
 import ood from '../../assets/images/ood.jpg';
 
@@ -79,6 +79,14 @@ class ProjectList extends Component {
           alt="Bearbnb clone"
         />
         <Project
+          title="FreeCodeCamp Education"
+          tag="Full Stack Development"
+          description="Portfolio showcasing my FreeCodeCamp education. See my certificates, projects, and challenges! :)"
+          projectLink="https://freecodecamp-portfolio.glitch.me/"
+          src={fccPortfolio}
+          alt="FreeCodeCamp Portfolio"
+        />
+        <Project
           title="Secret Santa"
           tag="Full Stack Development"
           description="Your favorite christmas gift exchange--online. Host or join online secret santa events. Invite your friends!"
@@ -103,14 +111,6 @@ class ProjectList extends Component {
           projectLink="https://codepen.io/Alex_Cannon/pen/gxpLJB"
           src={gameLife}
           alt="Conway's game of life"
-        />
-        <Project
-          title="Tic Tac Toe"
-          tag="Front End Development"
-          description="A simple game of tic-tac-toe created with JQuery. Play with a friend, or test your skills against a computer."
-          projectLink="https://codepen.io/Alex_Cannon/pen/NgMdgo"
-          src={ticTac}
-          alt="Tic Tac Toe"
         />
         <Project
           title="Memory Machine"
