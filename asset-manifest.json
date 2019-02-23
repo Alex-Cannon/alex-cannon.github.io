@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.6075cc99.chunk.css",
-  "main.js": "/static/js/main.0ffca944.chunk.js",
-  "main.js.map": "/static/js/main.0ffca944.chunk.js.map",
+  "main.js": "/static/js/main.d7da72f0.chunk.js",
+  "main.js.map": "/static/js/main.d7da72f0.chunk.js.map",
   "static/js/1.7af451b1.chunk.js": "/static/js/1.7af451b1.chunk.js",
   "static/js/1.7af451b1.chunk.js.map": "/static/js/1.7af451b1.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -9,13 +9,13 @@
   "static/media/face_zoom.jpg": "/static/media/face_zoom.cd3e4908.jpg",
   "static/media/secret-santa.jpg": "/static/media/secret-santa.a6c37ad9.jpg",
   "static/media/game_of_life.jpeg": "/static/media/game_of_life.2d81186e.jpeg",
-  "static/media/tic_tac.jpg": "/static/media/tic_tac.5cf90c60.jpg",
+  "static/media/fcc_portfolio.png": "/static/media/fcc_portfolio.b3f9b173.png",
   "static/media/simon_says.jpeg": "/static/media/simon_says.5e936c28.jpeg",
   "static/media/ood.jpg": "/static/media/ood.1774490e.jpg",
   "static/media/base.scss": "/static/media/Roboto-Regular.3e1af3ef.ttf",
   "static/media/bearbnb.jpg": "/static/media/bearbnb.71700cd7.jpg",
   "static/css/main.6075cc99.chunk.css.map": "/static/css/main.6075cc99.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.2eb5afa4828d42d4b657f824d202ad4f.js": "/precache-manifest.2eb5afa4828d42d4b657f824d202ad4f.js",
+  "precache-manifest.7e84b711d4015c58dccd3eb1d650aa3a.js": "/precache-manifest.7e84b711d4015c58dccd3eb1d650aa3a.js",
   "service-worker.js": "/service-worker.js"
 }
