@@ -70,6 +70,14 @@ class ProjectList extends Component {
     return (
       <div id="project-container">
         <Project
+          title="FreeCodeCamp Education"
+          tag="Full Stack Development"
+          description="See 23+ Web Apps, 100s of challenges, and 3+ certificates on my FreeCodeCamp Portfolio. :)"
+          projectLink="https://freecodecamp-portfolio.glitch.me/"
+          src={fccPortfolio}
+          alt="FreeCodeCamp Portfolio"
+        />
+        <Project
           title="Bearbnb"
           tag="Front End Development"
           description="Bearbnb is a fully-functional clone of Airbnb. Host or schedule a bearbnb with your friendly neighborhood bears. Protip: don't bring honey."
@@ -77,14 +85,6 @@ class ProjectList extends Component {
           readLink="https://devalexcannon.wordpress.com/2019/01/27/project-bearbnb-airbnb-clone/"
           src={bearbnb}
           alt="Bearbnb clone"
-        />
-        <Project
-          title="FreeCodeCamp Education"
-          tag="Full Stack Development"
-          description="Portfolio showcasing my FreeCodeCamp education. See my certificates, projects, and challenges! :)"
-          projectLink="https://freecodecamp-portfolio.glitch.me/"
-          src={fccPortfolio}
-          alt="FreeCodeCamp Portfolio"
         />
         <Project
           title="Secret Santa"
@@ -103,14 +103,6 @@ class ProjectList extends Component {
           readLink="https://devalexcannon.wordpress.com/2019/01/27/project-out-of-date-tracker/"
           src={ood}
           alt="Out-of-Date Tracker"
-        />
-        <Project
-          title="Game of Life"
-          tag="Front End Development"
-          description="Conway's game of life created with ReactJS. This was a fun one!"
-          projectLink="https://codepen.io/Alex_Cannon/pen/gxpLJB"
-          src={gameLife}
-          alt="Conway's game of life"
         />
         <Project
           title="Memory Machine"
@@ -136,11 +128,11 @@ class About extends Component {
           <p>Hi! I'm Alex, a 19 year-old, lankey, avid reader, blogger, and big planner that loves to add value in any way I can. <b>I also love puns</b>. Lots of puns &amp; hilarious references.</p>
           <p>I've had the privilege of working with some great developers during 2 <a href="https://chingu.io/" target="_blank" rel="noreferrer noopener">Chingu Voyages</a>. Chingu connects learners into teams in order for motivated developers to learn and complete awesome projects together.</p>
           <p>On my first voyage, we built <a href="http://bearbnb-06.herokuapp.com" target="_blank" rel="noreferrer noopener">Bearbnb</a>. I learned how git worked, advanced styling and ReactJS, and how to collaborate in a team. On my second voyage, as the project manager for a team of 3, we lost a teammate early-on. Regardless, we finished 5 days early!</p>
-          <p>I've earned the Front End Development certification from freecodecamp in the past. Now that they have updated their curriculum, I need to renew this certification. I am currently working on 4 additional certifications.</p>
-          <p>I also have a <a href="https://devalexcannon.wordpress.com/" target="_blank" rel="noreferrer noopener">blog</a>! I try to write at least once a month. I cover topics ranging from project showcases to tutorials to life updates.</p>
+          <p>I've earned <a href="https://freecodecamp-portfolio.glitch.me">3 certifications</a> from FreeCodeCamp, an e-learning platform for web developers.</p>
+          <p>I also post Web Development videos on my <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber">Youtube Channel</a> and write for <a href="http://devalexcannon.wordpress.com">my blog</a>! I try to post every week or two. I mostly cover topics ranging from tutorials to project showcases.</p>
           {/*<p>Below is a quick introduction to the guy who wrote all this. Wait, that's me. Right.</p>
           <p>Video Link/Intro</p>*/}
-          <p>Many Developers, only care about their paycheck. They will do the minimum to get by, take their paycheck, and go, cheating you out of the best of them. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
+          <p>Many Developers, only care about their paycheck. They will do the minimum to get by, take their paycheck, and leave. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
           <h3 className="about-quote">"Lean just beyond your edge"<br/> - David Deida</h3>
           <p>Thanks for reading! Let's create an impact, together.</p>
         </div>

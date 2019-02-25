@@ -3,10 +3,10 @@
 .project-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   min-height: 100vh;
-  padding: $pad;
+  padding: 2rem;
   border-bottom: 2px dashed $text-dark;
   @media screen and (min-width: $phone) {
     padding: 2.5rem 5rem 2.5rem 5rem;
@@ -31,14 +31,24 @@
 }
 
 .project-description {
-  margin: 0 0 1.5rem 0;
+  margin: 0.5rem 0;
   .tag {
     display: inline-block;
     margin-bottom: 1rem;
     text-decoration: italic;
   }
-  .title { margin-bottom: 0.3rem; word-wrap: none; }
+  .title { 
+    margin: 0.5rem 0; 
+    word-wrap: none;
+    font-size: 2.5em;
+  }
   .view-project { float: right; }
+  @media screen and (min-width: $phone) {
+    margin-bottom: 1.5rem;
+    .title {
+      font-size: 3em;
+    }
+  }
   @media screen and (min-width: $tablet) {
     font-size: 1.25rem;
     .description {
