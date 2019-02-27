@@ -1,28 +1,10 @@
 import React, { Component } from 'react';
-import Nav from '../../components/Nav/Nav.js';
-import Project from '../../components/Project/Project.js';
+import Gallery from '../../components/Gallery/Gallery.js';
 import SocialLinks from '../../components/Social/Social.js';
 import Button from '../../objects/Button/Button.js';
 import './landing.scss';
 import './about.scss';
-
-// images
 import face from '../../assets/images/face_zoom.jpg';
-import bearbnb from '../../assets/images/bearbnb.jpg';
-import secretSanta from '../../assets/images/secret-santa.jpg';
-import gameLife from '../../assets/images/game_of_life.jpeg';
-import fccPortfolio from '../../assets/images/fcc_portfolio.png';
-import simon from '../../assets/images/simon_says.jpeg';
-import ood from '../../assets/images/ood.jpg';
-
-/*
-  To-Do:
-  1) Add testimonials
-  2) Add intro video
-  3) Add Social navbar on right side of screen
-  4) Add "All Projects" section, where my Codepen is linked
-  5) Add cursor "arrow", where users can skip to the next project
-*/
 
 
 export default class Home extends Component {
@@ -30,7 +12,7 @@ export default class Home extends Component {
     return (
       <div>
         <Landing/>
-        <ProjectList/>
+        <Gallery/>
         <About/>
       </div>
     );
@@ -50,68 +32,17 @@ class Landing extends Component {
   render() {
     return (
       <div id="landing-container">
-        <Nav/>
-        <img src={face} alt="Alex Cannon" className="landing-face"/>
-        <p className="landing-text">Hi! :) I'm Alex Cannon &amp; I build websites.</p>
+        <div id="landing-content">
+          <img src={face} alt="Alex Cannon" className="landing-face"/>
+          <p className="landing-text">Hi! :) I'm Alex Cannon &amp; I build websites.</p>
+        </div>
         <div id="landing-button" onClick={this.scrollToProjects.bind(this)}>
-          Click here to view my portfolio.
+          <b>Click or Scroll to read more!</b>
           <div className="landing-arrow">
             <span></span>
             <span></span>    
           </div>
         </div>
-      </div>
-    );
-  }
-}
-
-class ProjectList extends Component {
-  render() {
-    return (
-      <div id="project-container">
-        <Project
-          title="FreeCodeCamp Education"
-          tag="Full Stack Development"
-          description="See 23+ Web Apps, 100s of challenges, and 3+ certificates on my FreeCodeCamp Portfolio. :)"
-          projectLink="https://freecodecamp-portfolio.glitch.me/"
-          src={fccPortfolio}
-          alt="FreeCodeCamp Portfolio"
-        />
-        <Project
-          title="Bearbnb"
-          tag="Front End Development"
-          description="Bearbnb is a fully-functional clone of Airbnb. Host or schedule a bearbnb with your friendly neighborhood bears. Protip: don't bring honey."
-          projectLink="http://bearbnb-06.herokuapp.com"
-          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-bearbnb-airbnb-clone/"
-          src={bearbnb}
-          alt="Bearbnb clone"
-        />
-        <Project
-          title="Secret Santa"
-          tag="Full Stack Development"
-          description="Your favorite christmas gift exchange--online. Host or join online secret santa events. Invite your friends!"
-          projectLink="http://secret-santa-13.herokuapp.com"
-          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-secret-santa-website/"
-          src={secretSanta}
-          alt="Secret Santa"
-        />
-        <Project
-          title="Out of Date Tracker"
-          tag="Full Stack Development"
-          description="Out-of-Date tracker created for a dairy manager. Add, edit, delete, search, and sort through your inventory!"
-          projectLink="https://out-of-date-tracker.glitch.me"
-          readLink="https://devalexcannon.wordpress.com/2019/01/27/project-out-of-date-tracker/"
-          src={ood}
-          alt="Out-of-Date Tracker"
-        />
-        <Project
-          title="Memory Machine"
-          tag="Front End Development"
-          description="Simon Says clone developed with HTML, CSS, and JQuery. Can you break my record of 17?"
-          projectLink="https://codepen.io/Alex_Cannon/pen/NgMdgo"
-          src={simon}
-          alt="Simon Says Clone"
-        />
       </div>
     );
   }
@@ -139,7 +70,7 @@ class About extends Component {
         <div className="about-testimonials">
           <p>Alex and I worked on a two months remote full stack development project together. Alex was the team leader and was very organized and productive for the whole duration of the project. Because of Alex's focus and coding skills our group was able to finish the project in the allocated time and fulfill all of our goals. Alex is very knowledgable with the MERN stack and a great problem solver.<br/> <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank" rel="noopener noreferer">- Inna Leikina</a></p>
         </div>
-        <div className="about-contact">
+        <div id="contact" className="about-contact">
           <h1>Contact Me</h1>
           <div className="about-contact-methods">
             <Button className="about-contact-email-btn btn" href="mailto:alexcannon2018@gmail.com">Email Me</Button>

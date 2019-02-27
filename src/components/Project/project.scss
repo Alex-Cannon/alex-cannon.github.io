@@ -1,21 +1,5 @@
 @import "../../utils/vars.scss";
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
-  border-bottom: 2px dashed $text-dark;
-  @media screen and (min-width: $phone) {
-    padding: 2.5rem 5rem 2.5rem 5rem;
-  }
-  @media screen and (min-width: $desktop) {
-    padding: $pad 25%;
-  }
-}
-
 .project-img-container {
   position: relative;
 }

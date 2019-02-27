@@ -37,17 +37,19 @@
 
 .about-face {
   display: block;
-  width: 50vw;
-  height: 50vw;
+  width: 55vw;
+  height: 55vw;
   min-width: 200px;
   min-height: 200px;
+  margin-left: 1em;
   background: $text-dark;
   margin-bottom: 1rem;
-  @media screen and (min-width: $tablet) {
-    float: right;
-    width: 50vw;
-    height: 50vw;
-    margin: 0 0 1rem 1rem;
+  border-radius: 100%;
+  border: 0;
+  float: right;
+  @media screen and (min-width: $phone) {
+    width: 42vw;
+    height: 42vw;
     max-width: 450px;
     max-height: 450px;
     margin-bottom: 2rem;

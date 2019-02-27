@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Nav from '../Nav/Nav.js';
 import Footer from '../Footer/Footer.js';
 import './base.scss';
 
@@ -14,6 +15,7 @@ class App extends Component {
     return ROUTES.map(({path, component: C}) => {
       const render = (props) => {
         return <>
+          <Nav/>
           <C {...props}/>
           <Footer/>
         </>;
@@ -28,6 +30,7 @@ class App extends Component {
       <div>
         <Router>
           <Switch>
+
           {this.getRoutes()}
           </Switch>
         </Router>
