@@ -1,10 +1,39 @@
 import React, { Component } from 'react';
+import Section from '../../components/Section/Section.js';
 import Gallery from '../../components/Gallery/Gallery.js';
 import SocialLinks from '../../components/Social/Social.js';
+import Icon from '../../components/Icon/Icon.js';
 import Button from '../../objects/Button/Button.js';
 import './landing.scss';
 import './about.scss';
+
+// Images
 import face from '../../assets/images/face_zoom.jpg';
+
+// Icons
+import html from '../../assets/images/icons/html.png';
+import css from '../../assets/images/icons/css.png';
+import js from '../../assets/images/icons/javascript.png';
+import bs from '../../assets/images/icons/bootstrap.png';
+import jq from '../../assets/images/icons/jquery.png';
+import d3 from '../../assets/images/icons/d3.js.png';
+import react from '../../assets/images/icons/react.png';
+import redux from '../../assets/images/icons/redux.png';
+import rr from '../../assets/images/icons/reactrouter.png';
+import sass from '../../assets/images/icons/sass.png';
+// Backend
+import node from '../../assets/images/icons/node.js.png';
+import express from '../../assets/images/icons/express.png';
+import mongo from '../../assets/images/icons/mongodb.png';
+import mongoose from '../../assets/images/icons/mongoose.png';
+import passport from '../../assets/images/icons/passport.png';
+import handlebars from '../../assets/images/icons/handlebars.png';
+// Other
+import git from '../../assets/images/icons/git.png';
+import github from '../../assets/images/icons/github.png';
+import heroku from '../../assets/images/icons/heroku.png';
+import mlab from '../../assets/images/icons/mlab.png';
+
 
 
 export default class Home extends Component {
@@ -13,7 +42,9 @@ export default class Home extends Component {
       <div>
         <Landing/>
         <Gallery/>
+        <Tech/>
         <About/>
+        <Contact/>
       </div>
     );
   }
@@ -48,11 +79,52 @@ class Landing extends Component {
   }
 }
 
+class Tech extends Component {
+  render() {
+    return (
+      <Section id="technologies">
+        <h1>Technologies</h1>
+        <div className='tech-content'>
+          <h3><i>Front-End</i></h3>
+          <div className='tech-list'>
+            <Icon src={html} text='HTML'/>
+            <Icon src={css} text='CSS'/>
+            <Icon src={js} text='JavaScript'/>
+            <Icon src={bs} text='Bootstrap'/>
+            <Icon src={jq} text='jQuery'/>
+            <Icon src={d3} text='D3.js'/>
+            <Icon src={react} text='React'/>
+            <Icon src={redux} text='Redux'/>
+            <Icon src={rr} text='React Router'/>
+            <Icon src={sass} text='Sass'/>
+          </div>
+          <h3><i>Back-End</i></h3>
+          <div className='tech-list'>
+            <Icon src={node} text='Node.js'/>
+            <Icon src={express} text='Express'/>
+            <Icon src={mongo} text='MongoDB'/>
+            <Icon src={mongoose} text='Mongoose'/>
+            <Icon src={passport} text='Passport'/>
+            <Icon src={handlebars} text='Handlebars'/>
+          </div>
+          <h3><i>Other</i></h3>
+          <div className='tech-list'>
+            <Icon src={git} text='Git'/>
+            <Icon src={github} text='Github'/>
+            <Icon src={heroku} text='Heroku'/>
+            <Icon src={mlab} text='mLab'/>
+          </div>
+        </div>
+      </Section>
+    );
+  }
+}
+
 class About extends Component {
   render() {
     return(
-      <div id="about-container">
-        <h1>About Me</h1>
+      <Section id="about">
+        <h1>About</h1>
         <div className="about-text">
           <img className="about-face" src={face} alt="Alex Cannon Face"/>
           <p><i>"Hu? What about me?"</i></p>
@@ -70,14 +142,21 @@ class About extends Component {
         <div className="about-testimonials">
           <p>Alex and I worked on a two months remote full stack development project together. Alex was the team leader and was very organized and productive for the whole duration of the project. Because of Alex's focus and coding skills our group was able to finish the project in the allocated time and fulfill all of our goals. Alex is very knowledgable with the MERN stack and a great problem solver.<br/> <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank" rel="noopener noreferer">- Inna Leikina</a></p>
         </div>
-        <div id="contact" className="about-contact">
-          <h1>Contact Me</h1>
-          <div className="about-contact-methods">
-            <Button className="about-contact-email-btn btn" href="mailto:alexcannon2018@gmail.com">Email Me</Button>
-            <SocialLinks/>
-          </div>
+      </Section>
+    );
+  }
+}
+
+class Contact extends Component {
+  render() {
+    return (
+      <Section id="contact">
+        <h1>Contact</h1>
+        <div className="about-contact-methods">
+          <Button className="about-contact-email-btn btn" href="mailto:alexcannon2018@gmail.com">Email Me</Button>
+          <SocialLinks/>
         </div>
-      </div>
+      </Section>
     );
   }
 }

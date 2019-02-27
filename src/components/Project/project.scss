@@ -1,50 +1,51 @@
 @import "../../utils/vars.scss";
 
-.project-img-container {
+.project-thumb-container {
   position: relative;
+  flex: 1;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px;
+  width: 300px;
+  height: 240px;
+  &:hover {
+    cursor: pointer;
+    max-width: 299px;
+    .project-thumb-cover {
+      background: rgba(0, 0, 0, 0.05);
+      color: $text-light;
+      height: 100%;
+      font-size: 2rem;
+    }
+  }
 }
 
-.project-img {
+.project-thumb-img {
   width: 100%;
-  @media screen and (min-width: $tablet) {
-    height: 55vh;
-  }
-  @media screen and (min-width: $desktop) {
-    height: 60vh;
-  }
+  border-bottom: 1px solid #aaa;
+  transition: 0.2s;
 }
 
-.project-description {
-  margin: 0.5rem 0;
-  .tag {
-    display: inline-block;
-    margin-bottom: 1rem;
-    text-decoration: italic;
-  }
-  .title { 
-    margin: 0.5rem 0; 
-    word-wrap: none;
-    font-size: 2.5em;
-  }
-  .view-project { float: right; }
-  @media screen and (min-width: $phone) {
-    margin-bottom: 1.5rem;
-    .title {
-      font-size: 3em;
-    }
-  }
-  @media screen and (min-width: $tablet) {
-    font-size: 1.25rem;
-    .description {
-      max-width: 600px;
-    }
-  }
-}
-
-.project-btns {
+.project-thumb-text {
   display: flex;
-  flex-wrap: wrap;
-  .btn {
-    margin-left: 0;
-  }
+  align-items: center;
+  height: 60px;
+  padding: 10px 1em;
+  margin: 0;
+  background: #fff;
+  transition: 0.2s;
+}
+
+.project-thumb-cover {
+  position: absolute;
+  top: 0;
+  left:0;
+  bottom: 0;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 0;
+  font-size: 0;
 }

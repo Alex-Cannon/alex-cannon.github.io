@@ -41,7 +41,7 @@ export default class Nav extends Component {
           <div id="nav-menu">
             <a href="#gallery">Gallery</a>
             <a href="#technologies">Tech</a>
-            <a href="#about-container">About</a>
+            <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <div id="contact-types">
               <a href="mailto:alexcannon2018@gmail.com">
@@ -78,7 +78,7 @@ class DesktopNavLeft extends Component {
         <a id="site-title" href="#landing-container">Alex Cannon &#123; Portfolio &#125;</a>
         <a href="#gallery">Gallery</a>
         <a href="#technologies">Tech</a>
-        <a href="#about-container">About</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
     );

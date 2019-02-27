@@ -1,0 +1,18 @@
+@import "../../utils/vars.scss";
+
+.section {
+  width: 100%;
+  border-bottom: 2px dashed $text-dark;
+  padding: $pad;
+  padding-top: 75px;
+  text-align: center;
+  @media screen and (min-width: $phone) {
+    padding: 75px 2rem 2rem 2rem;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 75px 5rem;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 75px 25%;
+  }
+}

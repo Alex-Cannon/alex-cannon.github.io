@@ -1,22 +1,27 @@
 import React, {Component} from 'react';
+import Thumb from './Thumb.js';
+import Popup from './Popup.js';
 import './project.scss';
-import Button from '../../objects/Button/Button.js';
 
 export default class Project extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      projectActive: false
+    }
+  }
+
+  togglePopup() {
+    var other = !this.state.projectActive;
+    this.setState({projectActive: other});
+  }
+
   render() {
-    return(
-      <div className="project-container">
-        <div className="project-description">
-          <i className="tag text-mute">{this.props.tag}</i>
-          <h1 className="title">{this.props.title}</h1>
-          <p className="description text-mute">{this.props.description}
-          </p>
-          <div className="project-btns">
-            <Button href={this.props.projectLink}>View Live</Button>
-            {this.props.readLink?<a className="btn" href={this.props.readLink} target="_blank" rel="noopener noreferrer">Read More</a>:""}
-          </div>
-        </div>
-        <img className="project-img" src={this.props.src} alt={this.props.alt}/>
+    return (
+      <div class="project-container">
+        <Thumb onClick={this.togglePopup.bind(this)} {...this.props}/>
+        {this.state.projectActive ? <Popup/> : ''}
       </div>
     );
   }
