@@ -83,8 +83,9 @@ class Tech extends Component {
   render() {
     return (
       <Section id="technologies">
-        <h1>Technologies</h1>
+        <h1>Tech I Use</h1>
         <div className='tech-content'>
+          <p>I use these technologies but I'm willing to learn what is necessary to get the job done!</p>
           <h3><i>Front-End</i></h3>
           <div className='tech-list'>
             <Icon src={html} text='HTML'/>
@@ -92,9 +93,7 @@ class Tech extends Component {
             <Icon src={js} text='JavaScript'/>
             <Icon src={bs} text='Bootstrap'/>
             <Icon src={jq} text='jQuery'/>
-            <Icon src={d3} text='D3.js'/>
             <Icon src={react} text='React'/>
-            <Icon src={redux} text='Redux'/>
             <Icon src={rr} text='React Router'/>
             <Icon src={sass} text='Sass'/>
           </div>
@@ -135,7 +134,7 @@ class About extends Component {
           <p>I also post Web Development videos on my <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber">Youtube Channel</a> and write for <a href="http://devalexcannon.wordpress.com">my blog</a>! I try to post every week or two. I mostly cover topics ranging from tutorials to project showcases.</p>
           {/*<p>Below is a quick introduction to the guy who wrote all this. Wait, that's me. Right.</p>
           <p>Video Link/Intro</p>*/}
-          <p>Many Developers, only care about their paycheck. They will do the minimum to get by, take their paycheck, and leave. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
+          <p>Many Developers only care about their paycheck. They will do the minimum to get by, take their paycheck, and leave. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
           <h3 className="about-quote">"Lean just beyond your edge"<br/> - David Deida</h3>
           <p>Thanks for reading! Let's create an impact, together.</p>
         </div>
