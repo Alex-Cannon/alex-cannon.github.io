@@ -16,9 +16,7 @@ import css from '../../assets/images/icons/css.png';
 import js from '../../assets/images/icons/javascript.png';
 import bs from '../../assets/images/icons/bootstrap.png';
 import jq from '../../assets/images/icons/jquery.png';
-import d3 from '../../assets/images/icons/d3.js.png';
 import react from '../../assets/images/icons/react.png';
-import redux from '../../assets/images/icons/redux.png';
 import rr from '../../assets/images/icons/reactrouter.png';
 import sass from '../../assets/images/icons/sass.png';
 // Backend
@@ -126,20 +124,19 @@ class About extends Component {
         <h1>About</h1>
         <div className="about-text">
           <img className="about-face" src={face} alt="Alex Cannon Face"/>
-          <p><i>"Hu? What about me?"</i></p>
-          <p>Hi! I'm Alex, a 19 year-old, lankey, avid reader, blogger, and big planner that loves to add value in any way I can. <b>I also love puns</b>. Lots of puns &amp; hilarious references.</p>
+          <p className="subtitle"><i>"Hu? What about me?"</i></p>
+          <p>Hi! I'm Alex, a 20 year-old, eager, hard-working self-starter who loves to add value in any way I can.</p>
+          <p>I specialize in front-end development and the MERN stack (Mongo, Express, React, Node), but am willing to learn and work on what is needed to get the job done.</p>
+          <p>I've built over 20 web apps, including 3 full-stack websites from scratch. Also, I've earned <a href="https://freecodecamp-portfolio.glitch.me">4 certifications</a> from FreeCodeCamp. Each certification requires 5 or more web app projects and over 100 unique challenges.</p>
+          <p>I have a <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber">Youtube Channel</a> and <a href="http://devalexcannon.wordpress.com">blog</a> where I post new software development content! I try to post every week or two. I cover topics ranging from tutorials to project showcases.</p>
           <p>I've had the privilege of working with some great developers during 2 <a href="https://chingu.io/" target="_blank" rel="noreferrer noopener">Chingu Voyages</a>. Chingu connects learners into teams in order for motivated developers to learn and complete awesome projects together.</p>
-          <p>On my first voyage, we built <a href="http://bearbnb-06.herokuapp.com" target="_blank" rel="noreferrer noopener">Bearbnb</a>. I learned how git worked, advanced styling and ReactJS, and how to collaborate in a team. On my second voyage, as the project manager for a team of 3, we lost a teammate early-on. Regardless, we finished 5 days early!</p>
-          <p>I've earned <a href="https://freecodecamp-portfolio.glitch.me">3 certifications</a> from FreeCodeCamp, an e-learning platform for web developers.</p>
-          <p>I also post Web Development videos on my <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber">Youtube Channel</a> and write for <a href="http://devalexcannon.wordpress.com">my blog</a>! I try to post every week or two. I mostly cover topics ranging from tutorials to project showcases.</p>
-          {/*<p>Below is a quick introduction to the guy who wrote all this. Wait, that's me. Right.</p>
-          <p>Video Link/Intro</p>*/}
-          <p>Many Developers only care about their paycheck. They will do the minimum to get by, take their paycheck, and leave. I understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary in order to both help you achieve your goals and mine.</p>
+          <p>I'm always looking for ways to get involved in the software develpment community. I attend monthly events/hackathons and love to build fun apps on the side (sometimes through Chingu)</p>
+          <p>I love software. I also understand that <b>at the end of the day, businesses need to make money!</b> That is why I'm commited to learning what is necessary to help you reach your goals.</p>
           <h3 className="about-quote">"Lean just beyond your edge"<br/> - David Deida</h3>
           <p>Thanks for reading! Let's create an impact, together.</p>
-        </div>
-        <div className="about-testimonials">
-          <p>Alex and I worked on a two months remote full stack development project together. Alex was the team leader and was very organized and productive for the whole duration of the project. Because of Alex's focus and coding skills our group was able to finish the project in the allocated time and fulfill all of our goals. Alex is very knowledgable with the MERN stack and a great problem solver.<br/> <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank" rel="noopener noreferer">- Inna Leikina</a></p>
+          <div className="about-testimonials">
+            <p>Alex and I worked on a two months remote full stack development project together. Alex was the team leader and was very organized and productive for the whole duration of the project. Because of Alex's focus and coding skills our group was able to finish the project in the allocated time and fulfill all of our goals. Alex is very knowledgable with the MERN stack and a great problem solver.<br/> <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank" rel="noopener noreferer">- Inna Leikina</a></p>
+          </div>
         </div>
       </Section>
     );
@@ -152,7 +149,7 @@ class Contact extends Component {
       <Section id="contact">
         <h1>Contact</h1>
         <div className="about-contact-methods">
-          <Button className="about-contact-email-btn btn" href="mailto:alexcannon2018@gmail.com">Email Me</Button>
+          <p>Hello! Contact me via Email, Phone, Github, etc. by clicking an icon below!</p>
           <SocialLinks/>
         </div>
       </Section>

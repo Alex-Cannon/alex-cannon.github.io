@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './nav.scss';
 import { FontAwesomeIcon as Fort } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 
 export default class Nav extends Component {
@@ -44,15 +44,15 @@ export default class Nav extends Component {
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <div id="contact-types">
-              <a href="mailto:alexcannon2018@gmail.com">
-                <Fort icon={faEnvelopeSquare}/>
-              </a>
-              <i onClick={() => { alert('Call me at 970-812-2131 :)'); }}>
-                <Fort icon={faPhoneSquare}/>
-              </i>
-              <a href="https://www.linkedin.com/in/alexander-cannon-2a5b0513b/" target='_blank' rel="noreferrer noopener">
-                <Fort icon={faLinkedin}/>
-              </a>
+            <a href="mailto:alexcannon2018@gmail.com" title='Email Me!'>
+              <Fort icon={faEnvelopeSquare}/>
+            </a>
+            <i onClick={() => { alert('Call me at 970-812-2131 :)'); }}  title='Call Me!'>
+              <Fort icon={faPhoneSquare}/>
+            </i>
+            <a href="https://github.com/alex-cannon" target='_blank' rel="noreferrer noopener" title='Github Me!'>
+              <Fort icon={faGithubSquare}/>
+            </a>
             </div>
           </div>
         ) : ''}
@@ -103,14 +103,14 @@ class DesktopNavRight extends Component {
   render () {
     return (
       <div id="contact-types" className='nav-right'>
-        <a href="mailto:alexcannon2018@gmail.com">
+        <a href="mailto:alexcannon2018@gmail.com"  title='Email Me!'>
           <Fort icon={faEnvelopeSquare}/>
         </a>
-        <i onClick={() => { alert('Call me at 970-812-2131 :)'); }}>
+        <i onClick={() => { alert('Call me at 970-812-2131 :)'); }}  title='Call Me!'>
           <Fort icon={faPhoneSquare}/>
         </i>
-        <a href="https://www.linkedin.com/in/alexander-cannon-2a5b0513b/" target='_blank' rel="noreferrer noopener">
-          <Fort icon={faLinkedin}/>
+        <a href="https://github.com/alex-cannon" target='_blank' rel="noreferrer noopener"  title='Github Me!'>
+          <Fort icon={faGithubSquare}/>
         </a>
       </div>
     );
