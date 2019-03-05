@@ -1,0 +1,19 @@
+@import "../../utils/vars.scss";
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: $pad;
+  height: 400px;
+  border-top: 2px dashed $text-dark;
+  border-bottom: 2px dashed $text-dark;
+  font-size: 1.2rem;
+  p {
+    margin-bottom: 0.5rem;
+  }
+  .social-links {
+    justify-content: center;
+  }
+}
