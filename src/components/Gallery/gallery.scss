@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   height: 220px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -17,4 +18,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
+}
+
+.text-left {
+  float: left;
 }

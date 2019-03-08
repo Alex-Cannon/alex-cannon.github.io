@@ -66,8 +66,15 @@
   }
 }
 
+#technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tech-content {
   text-align: left;
+  max-width: 800px;
 }
 
 .tech-list {

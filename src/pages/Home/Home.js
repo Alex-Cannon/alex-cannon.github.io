@@ -82,8 +82,8 @@ class Tech extends Component {
     return (
       <Section id="technologies">
         <h1>Tech I Use</h1>
+        <p>I use these technologies but I'm willing to learn what is necessary to get the job done!</p>
         <div className='tech-content'>
-          <p>I use these technologies but I'm willing to learn what is necessary to get the job done!</p>
           <h3><i>Front-End</i></h3>
           <div className='tech-list'>
             <Icon src={html} text='HTML'/>

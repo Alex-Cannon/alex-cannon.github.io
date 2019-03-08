@@ -21,7 +21,7 @@ export default class Project extends Component {
     return (
       <div className="project-container" >
         <Thumb togglePopup={this.togglePopup.bind(this)} {...this.props}/>
-        {this.state.projectActive ? <Popup/> : ''}
+        {this.state.projectActive ? <Popup togglePopup={this.togglePopup.bind(this)} {...this.props}/> : ''}
       </div>
     );
   }
