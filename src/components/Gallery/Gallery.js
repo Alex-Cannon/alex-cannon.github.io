@@ -73,7 +73,7 @@ export default class Gallery extends Component {
             tag="Full Stack Development"
             description="Your favorite christmas gift exchange--online. Host or join online secret santa events. Invite your friends!"
             challenges={<>As the Project Manager, I chose to use Create React App to streamline the development process and play to our strengths. This is because setting up a MERN workflow can be tough!<br/><br/>
-              I also had to learn how to get along with other developers and communicate my ideas! :)
+              We needed a daily CRON job to run some tasks. We chose to use cron-jobs.org to send an HTTP request to our server once a day to solve this issue.
               </>}  
             projectLink="http://secret-santa-13.herokuapp.com"
             githubLink="https://github.com/chingu-voyage7/Bears-Team-13"
@@ -86,27 +86,44 @@ export default class Gallery extends Component {
           <Project
             title="FreeCodeCamp Portfolio"
             tag="Full Stack Development"
-            description="See 23+ Web Apps, 100s of challenges, and 3+ certificates on my FreeCodeCamp Portfolio. :)"
+            description="Portfolio showcasing my FreeCodeCamp education. FreeCodeCamp is an e-learning platform where you develop web applications. 1800+ hours of learning, 100s of challenges, and 30+ web app projects are offered. I have completed 4 certifications (1000+ hours)."
+            challenges={<>I needed a way to store 100s of my freeCodeCamp challenges. I decided using a database was overkill for some lightweight challenges. Instead, I stored them directly on the repo and used NodeJS's File System module to pull the files.<br/><br/>
+              I used Bootstrap and JQuery to increase development speed and finish 4 days ahead of schedule.
+            </>}
+            githubLink="https://github.com/Alex-Cannon/freeCodeCampPortfolio"
             projectLink="https://freecodecamp-portfolio.glitch.me/"
             src={fccPortfolio}
-            alt="FreeCodeCamp Portfolio"
+            frontend={[html, css, javascript, jquery, bootstrap, sass]}
+            backend={[node, express]}
+            other={[git, github]}
           />
           <Project
             title="Out of Date Tracker"
             tag="Full Stack Development"
             description="Out-of-Date tracker created for a dairy manager. Add, edit, delete, search, and sort through your inventory!"
+            challenges={<>I needed a way to query through items in the database. After some research, I used Mongo's text search API. The issue with this API is that it returns only direct matches. That means if you misspell 'butter', it will not display all butter items. Regardless, for this small project I decided to stick with the Mongo API.<br/><br/>
+              I used Bootstrap to cut down on the required styling and make the site mobile-responsive. This cut down nearly 23% of styling time.
+            </>}
             projectLink="https://out-of-date-tracker.glitch.me"
+            githubLink="https://github.com/Alex-Cannon/out-of-date-tracker"
             readLink="https://devalexcannon.wordpress.com/2019/01/27/project-out-of-date-tracker/"
             src={ood}
-            alt="Out-of-Date Tracker"
+            frontend={[html, css, javascript, react, reactrouter, bootstrap, sass]}
+            backend={[node, express, mongoose, mongo, passport]}
+            other={[git, github, mlab]}
           />
           <Project
             title="Memory Machine"
             tag="Front End Development"
             description="Simon Says clone developed with HTML, CSS, and JQuery. Can you break my record of 17?"
+            challenges={<>This project challenged my knowledge of JQuery. I had to manage the App state like 'isOn', 'isStrict', 'pattern', etc. In hindsight, I can see that this project may have been better suited for ReactJS, where the state would have been more easily managed.<br/><br/>
+              
+            </>}
             projectLink="https://codepen.io/Alex_Cannon/pen/NgMdgo"
             src={simon}
-            alt="Simon Says Clone"
+            frontend={[html, css, javascript, jquery, sass]}
+            backend={[]}
+            other={[]}
           />
         </div>
         <div className="gallery-btn-container">
