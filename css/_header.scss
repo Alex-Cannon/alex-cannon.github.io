@@ -1,0 +1,23 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #ddd;
+  background: #fff;
+  * {
+    margin-bottom: 0;
+  }
+  a {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: #202020;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:visited {
+      text-decoration: none;
+    }
+  }
+}
