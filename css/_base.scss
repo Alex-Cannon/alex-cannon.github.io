@@ -1,6 +1,9 @@
 @import 'vars';
 :root {
-  font-size: 16px;
+  font-size: 18px;
+  @media screen and (min-width: $tablet) {
+    font-size: 17px;
+  }
 }
 
 *, *::before, *::after {
@@ -9,12 +12,13 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
 }
 
 p, span, i, b, body {
   margin: 0;
   margin-bottom: 1em;
+  line-height: 1.5em;
 }
 
 h1 { font-size: 3rem; }
@@ -43,6 +47,14 @@ button, .btn {
 
 .btn-lg {
   font-size: 1.4rem;
+}
+
+.btn-danger {
+  background: $text-danger;
+  color: $text-light;
+  &:hover {
+    background: darken($text-danger, 5%);
+  }
 }
 
 body {
