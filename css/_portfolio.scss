@@ -2,13 +2,17 @@
 
 .section {
   padding: 3rem 12.5%;
-  border-top: 2px solid $gray-med;
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
   }
   @media screen and (min-width: $desktop) {
     padding: 3rem 25%;
   }
+}
+
+.portfolio-container .section {
+  @extend .section;
+  border-top: 2px solid $gray-med;
 }
 
 .landing-wrap {
