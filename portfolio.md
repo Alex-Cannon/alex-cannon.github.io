@@ -87,4 +87,6 @@ permalink: /portfolio/
 <div class="section" id="contact">
   <h1>Contact Me</h1>
   <p>Hi! Let's chat. You can contact me through any of the services below. I'm most active on LinkedIn and Github.</p>
+  <a href="https://github.com/alex-cannon"><i class="fab fa-github fa-2x"></i></a>
+  <a href="https://www.linkedin.com/in/alexander-cannon-2a5b0513b/"><i class="fab fa-linkedin fa-2x"></i></a>
 </div>
