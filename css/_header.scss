@@ -16,14 +16,6 @@
   }
   a {
     padding: 0 0.5rem;
-    text-decoration: none;
-    color: #202020;
-    &:hover {
-      text-decoration: underline;
-    }
-    &:visited {
-      text-decoration: none;
-    }
   }
   @media screen and (min-width: $tablet) {
     position: absolute;

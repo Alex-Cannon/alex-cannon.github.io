@@ -6,19 +6,29 @@
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
   }
+  @media screen and (min-width: $desktop) {
+    padding: 3rem 25%;
+  }
 }
 
 .landing-wrap {
   min-height: 100vh;
   padding-top: 50px;
   text-align: center;
+  .my-face {
+    margin: 5% 0;
+  }
+}
+
+.landing-face {
+  margin: 5% 0;
 }
 
 .my-face {
+  display: inline-block;
   border-radius: 100%;
   max-width: 250px;
   width: 100%;
-  margin: 5% 0;
   @media screen and (min-width: $tablet) {
     max-width: 400px;
   }
@@ -56,4 +66,15 @@
 .gallery-project-describe {
   background: $text-light;
   padding: 2rem;
+}
+
+.portfolio-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-bottom: 1rem;
+}
+
+.portfolio-quote {
+  margin: 1.5em 0;
 }
