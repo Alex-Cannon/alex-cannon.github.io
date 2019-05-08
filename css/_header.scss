@@ -1,8 +1,13 @@
+@import 'vars';
+
 .top-nav {
+  position: fixed;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
-  padding: 1rem 2rem;
+  height: $nav-height;
+  padding: 0 2rem;
   margin-bottom: 2rem;
   border-bottom: 2px solid #ddd;
   background: #fff;
@@ -19,5 +24,8 @@
     &:visited {
       text-decoration: none;
     }
+  }
+  @media screen and (min-width: $tablet) {
+    position: absolute;
   }
 }

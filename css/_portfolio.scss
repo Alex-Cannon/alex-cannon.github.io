@@ -1,8 +1,44 @@
-.portfolio-wrapper {
+@import 'vars';
+
+.section {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 2px solid $gray-med;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+}
+
+.landing-wrap {
+  min-height: 100vh;
+  padding-top: 50px;
   text-align: center;
 }
 
 .my-face {
   border-radius: 100%;
-  max-width: 400px;
+  max-width: 250px;
+  width: 100%;
+  margin: 5% 0;
+  @media screen and (min-width: $tablet) {
+    max-width: 400px;
+  }
+}
+
+.portfolio-description {
+  font-weight: 400;
+}
+
+#gallery {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+    border-bottom: 2px solid #555;
+    @media screen and (min-width: $tablet) {
+      width: 75%;
+    }
+  }
 }

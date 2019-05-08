@@ -1,3 +1,8 @@
+@import 'vars';
+:root {
+  font-size: 16px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -19,17 +24,38 @@ h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
 
+button, .btn {
+  display: inline-block;
+  min-width: 100px;
+  padding: 0.6em 1.5em;
+  background: #eee;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  color: $text-dark;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    background: $gray-med;
+  }
+  transition: 0.2s ease-in-out;
+}
+
+.btn-lg {
+  font-size: 1.4rem;
+}
+
 body {
-  background: #fff;
+  background: $text-light;
   color: #202020;
-  font-family: 'Ubuntu', sans-serif;
-  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .row {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     flex-direction: row;
   }
 }
