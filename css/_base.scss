@@ -1,0 +1,128 @@
+@import 'vars';
+:root {
+  font-size: 16px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  &:active, :focus {
+    outline: 2px solid $outline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+p, span, i, b, body, ul, ol {
+  margin: 0;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+li ul {
+  margin: 0;
+}
+
+h1 { font-size: 2.6rem; }
+h2 { font-size: 1.9rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.1rem; }
+
+body {
+  background: $text-light;
+  color: #202020;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: $text-info;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover {
+    color: darken($text-info, 10%);
+    text-decoration: underline;
+  }
+}
+
+button, .btn {
+  display: inline-block;
+  min-width: 100px;
+  padding: 0.6em 1.5em;
+  background: #eee;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: $text-dark;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    background: $gray-med;
+    color: $text-dark;
+    text-decoration: none;
+  }
+  transition: 0.2s ease-in-out;
+}
+
+.btn-lg {
+  font-size: 1.4rem;
+}
+
+.btn-danger {
+  background: $text-danger;
+  color: $text-light;
+  &:hover {
+    background: darken($text-danger, 10%);
+    color: $text-light;
+    text-decoration: none;
+  }
+}
+
+.btn-info {
+  background: $text-info;
+  color: $text-light;
+  &:hover {
+    background: darken($text-info, 10%);
+    color: $text-light;
+    text-decoration: none;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.col {
+  flex: 1;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.col-full {
+  @extend .col;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

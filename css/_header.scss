@@ -1,0 +1,27 @@
+@import 'vars';
+
+.top-nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: $nav-height;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #ddd;
+  background: #fff;
+  * {
+    margin-bottom: 0;
+  }
+  a {
+    padding: 0 0.5rem;
+  }
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+  }
+}
+
+.top-nav-space {
+  padding-top: 50px;
+}

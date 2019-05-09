@@ -1,0 +1,84 @@
+@import 'vars';
+
+.section {
+  padding: 3rem 12.5%;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 3rem 25%;
+  }
+}
+
+.portfolio-container .section {
+  @extend .section;
+  border-top: 2px solid $gray-med;
+}
+
+.landing-wrap {
+  min-height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+  .my-face {
+    margin: 5% 0;
+  }
+}
+
+.landing-face {
+  margin: 5% 0;
+}
+
+.my-face {
+  display: inline-block;
+  border-radius: 100%;
+  max-width: 250px;
+  width: 100%;
+  @media screen and (min-width: $tablet) {
+    max-width: 400px;
+  }
+}
+
+.portfolio-description {
+  font-weight: 400;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid $gray-med;
+}
+
+.gallery-project {
+  text-align: center;
+  width: 100%;
+  @media screen and (min-width: $tablet) {
+    width: 75%;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 50%;
+  }
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top: 2px solid $gray-med;
+}
+
+.gallery-project-describe {
+  background: $text-light;
+  padding: 2rem;
+}
+
+.portfolio-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-bottom: 1rem;
+}
+
+.portfolio-quote {
+  margin: 1.5em 0;
+}
