@@ -15,7 +15,7 @@ permalink: /portfolio/
       src='/assets/images/cover_codebin.jpg'
       alt='Codepen Clone | Full Stack Development'
       href='https://c0d3bin.herokuapp.com/'
-      text='Codepen Clone | Full Stack Development'
+      text='Webpage Editor | Full Stack Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_secretsanta.png'
@@ -39,7 +39,7 @@ permalink: /portfolio/
   <div class="section" id="skills">
     <h1>Skills</h1>
     <p>I believe that technology should <i>solve problems</i> instead of complicating them.<br/><b>That's why I actively learn the tech needed to get the job done!</b><br/> With that said, I'm most familiar with <u>JavaScript, HTML, CSS, ReactJS, NodeJS, Express, and MongoDB.</u></p>
-    <p>I write software mostly <b>every day</b> to stay on top of the new jazzy tech. <br/>It takes <b>hard work</b> and <b>dedication</b> to live up to my high standards for quality work.</p>
+    <p>I write software mostly <b>every day</b> to stay on top of the new jazzy tech. <br/>It takes <b>hard work</b> and dedication to live up to my high standards for quality work.</p>
     <br/>
     <h3>Front-End</h3>
     <p>JavaScript, ReactJS, JQuery, HTML, CSS, Sass, Bootstrap, Mobile-First, Responsive Design</p>
@@ -54,9 +54,6 @@ permalink: /portfolio/
   <div class="section" id="contact">
     <h1>Contact Me</h1>
     <p>Hi! Let's chat. Send me an email/message through any of the services below. I'm most active on LinkedIn and Github.</p>
-    <a href="mailto:alexcannon2018@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a>
-    <a href="https://github.com/alex-cannon"><i class="fab fa-github-square fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/alexander-cannon-2a5b0513b/"><i class="fab fa-linkedin fa-3x"></i></a>
-    <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber"><i class="fab fa-youtube-square fa-3x"></i></a>
+    {% include_relative _includes/socialLinks.html %}
   </div>
 </div>

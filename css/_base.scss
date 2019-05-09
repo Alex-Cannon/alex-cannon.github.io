@@ -100,14 +100,22 @@ button, .btn {
 .row {
   display: flex;
   flex-direction: column;
+  width: 100%;
   @media screen and (min-width: $tablet) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
 .col {
   flex: 1;
   display: inline-block;
+  padding: 0.5rem;
+}
+
+.col-full {
+  @extend .col;
+  width: 100%;
 }
 
 .text-center {

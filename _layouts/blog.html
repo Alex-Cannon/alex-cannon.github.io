@@ -1,0 +1,14 @@
+{% include_relative _includes/head.html %}
+{% include_relative _includes/header.html %}
+<div class="top-nav-space"></div>
+<div class="section">
+  {{content}}
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% include_relative _includes/footer.html %}
