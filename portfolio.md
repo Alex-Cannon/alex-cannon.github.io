@@ -6,22 +6,22 @@ permalink: /portfolio/
 <div class="portfolio-container">
   <div class="landing-wrap section">
     <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>
-    <h2 class="portfolio-description">Hi! I'm Alex & I Build Software.</h2>
+    <h1 class="portfolio-description">Hi! I'm Alex & I Build Software.</h1>
     <p>Click or Scroll to view my projects.</p>
     <a class="btn btn-lg" href="#gallery">View Projects</a>
   </div>
   <div id="gallery">
     {% include_relative _includes/project.html 
       src='/assets/images/cover_codebin.jpg'
-      alt='Codepen Clone | Full Stack Development'
+      alt='Online Webpage Editor | Full Stack Development'
       href='https://c0d3bin.herokuapp.com/'
-      text='Webpage Editor | Full Stack Development'
+      text='Online Webpage Editor | Full Stack Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_secretsanta.png'
       alt='Secret Santa Online | Full Stack Development'
       href='https://secret-santa-13.herokuapp.com'
-      text='Secret Santa Online | Full Stack Development'
+      text='Secret Santa Shop | Full Stack Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_bearbnb.png'
