@@ -1,0 +1,13 @@
+{% include_relative _includes/head.html %}
+{% include_relative _includes/header.html %}
+<div class="top-nav-space"></div>
+<div class="section">
+  {{ content }}
+  {% for post in site.posts %}
+  <h6>
+      {{ post.date | date: '%Y %B %d' }} - <a href="{{ post.url }}">{{ post.title }}</a>
+  </h6>
+  <span></span>
+  {% endfor %}
+</div>
+{% include_relative _includes/footer.html %}
