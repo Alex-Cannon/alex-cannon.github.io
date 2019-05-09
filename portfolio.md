@@ -15,24 +15,28 @@ permalink: /portfolio/
       src='/assets/images/cover_codebin.jpg'
       alt='Online Webpage Editor | Full Stack Development'
       href='https://c0d3bin.herokuapp.com/'
+      readhref='/post/codebin'
       text='Online Webpage Editor | Full Stack Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_secretsanta.png'
       alt='Secret Santa Online | Full Stack Development'
       href='https://secret-santa-13.herokuapp.com'
+      readhref='/post/secretsanta'
       text='Secret Santa Shop | Full Stack Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_bearbnb.png'
       alt='Airbnb Clone | Front-End Development'
       href='https://bearbnb-06.herokuapp.com'
+      readhref='/post/bearbnb'
       text='Airbnb Clone | Front-End Development'
     %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_freecodecamp.png'
       alt='FreeCodeCamp Portfolio | Full Stack Development'
       href='https://freecodecamp-portfolio.glitch.me/'
+      readhref='/post/freecodecampportfolio'
       text='FreeCodeCamp Portfolio | Full Stack Development'
     %}
   </div>

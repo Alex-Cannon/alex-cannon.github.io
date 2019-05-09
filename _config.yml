@@ -34,7 +34,7 @@ sass:
 
 paginate: 10
 paginate_path: '/blog/:num'
-permalink: /blog/:categories/:title
+permalink: /post/:categories/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
