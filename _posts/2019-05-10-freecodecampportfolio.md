@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project: Codebin'
+title: 'Project: FreeCodeCamp Portfolio'
 date:   2019-05-10 00:00:00 -0600
 tags: project, portfolio
 ---
