@@ -5,7 +5,6 @@ Want to create your own blog hosted by github pages?
 [Get started](https://jekyllrb.com/) with the Jekyll docs.
 
 # Get Started
-You can run my site locally to better understand Jekyll or just for fun!
 Follow these steps to get started:
 
 1) Follow the [Jekyll Installation](https://jekyllrb.com/docs/installation/) Guide.
