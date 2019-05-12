@@ -1,14 +1,18 @@
 @import 'vars';
 
-.top-nav {
+.nav-container {
   position: fixed;
+  width: 100%;
+  background: #fff;
+}
+
+.top-nav {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   height: $nav-height;
-  padding: 0 2rem;
-  margin-bottom: 2rem;
+  padding: 5px 1rem;
   border-bottom: 2px solid #ddd;
   background: #fff;
   * {
@@ -19,9 +23,81 @@
   }
   @media screen and (min-width: $tablet) {
     position: absolute;
+    justify-content: space-between;
+    padding: 5px 2.5rem;
   }
 }
 
 .top-nav-space {
   padding-top: 50px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mobile-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  a {
+    display: block;
+    padding: 0.5em 1rem;
+    border-bottom: 1px solid #ddd;
+    &:last-of-type {
+      border-bottom: 2px solid #ddd;
+    }
+    &:hover {
+      background: #eee;
+    }
+  }
+}
+
+#nav-right {
+  position: absolute;
+  right: 10px;
+  @media screen and (min-width: $tablet) {
+    position: static;
+  }
+}
+
+.burger-close {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  .bar1, .bar2, .bar3 {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: $text-info;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .bar1 {
+    top: 0;
+    left: 0;
+  }
+  .bar2 {
+    top: calc(50% - 2.5px);
+  }
+  .bar3 {
+    bottom: 0;
+  }
+}
+
+.burger-open {
+  @extend .burger-close;
+  .bar1 {
+    transform: rotate(-45deg) translate(-6px, 9px);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+  .bar3 {
+    transform: rotate(45deg) translate(-6px, -9px);
+  }
 }
