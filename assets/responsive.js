@@ -17,10 +17,10 @@ function toggleMenu() {
   open = !open;
   if (open) {
     get('burger').className = 'burger-open';
-    get('mobile-menu').innerHTML = links;
+    get('mobile-menu').className = 'mobile-menu-active';
   } else {
     get('burger').className = 'burger-close';
-    get('mobile-menu').innerHTML = '';
+    get('mobile-menu').className = '';
   }
 }
 
