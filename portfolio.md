@@ -11,6 +11,14 @@ permalink: /portfolio/
     <a class="btn btn-lg" href="#gallery">View Projects</a>
   </div>
   <div id="gallery">
+    {%
+      include_relative _includes/project.html
+      src='/assets/images/cover_voa.png'
+      alt='Volunteer Core'
+      href='https://volunteercore.herokuapp.com'
+      readhref='/post/volunteer-core'
+      text='Volunteers For America "CRM" | Front-End Development'
+    %}
     {% include_relative _includes/project.html 
       src='/assets/images/cover_codebin.jpg'
       alt='Online Webpage Editor | Full Stack Development'
