@@ -15,7 +15,7 @@ permalink: /portfolio/
       include_relative _includes/project.html
       src='/assets/images/cover_voa.png'
       alt='Volunteer Core'
-      href='https://volunteercore.herokuapp.com'
+      href='https://vmt-rsvplarimer.herokuapp.com/'
       readhref='/post/volunteer-core'
       text='Volunteers For America "CRM" | Front-End Development'
     %}
