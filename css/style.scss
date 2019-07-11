@@ -1,9 +1,14 @@
 ---
 ---
 
+// Shared
 @import 'base';
 @import 'header';
 @import 'portfolio';
 @import 'footer';
 
+// Pages
 @import 'post';
+
+// Partials
+@import './_includes/socialbar.scss';

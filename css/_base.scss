@@ -51,6 +51,16 @@ a {
   }
 }
 
+.social-link {
+  color: $text-info;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  &:hover {
+    color: darken($text-info, 10%);
+  }
+}
+
 button, .btn {
   display: inline-block;
   min-width: 100px;
