@@ -3,7 +3,6 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
-{% include_relative _includes/socialbar.html %}
 <div class="portfolio-container">
   <div class="landing-wrap section">
     <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>

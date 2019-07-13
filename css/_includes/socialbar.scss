@@ -18,8 +18,8 @@
 .social-bar {
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
   width: 100%;
-  background: #fff;
   border-radius: 5px;
   @media screen and (min-width: $tablet) {
     flex-direction: column;
@@ -34,9 +34,10 @@
   padding: 0;
   background: $text-info;
   height: 50px;
-  font-size: 2rem;
+  font-size: 30px;
   &:hover {
     background: darken($text-info, 10%);
+    text-decoration: none;
     cursor: pointer;
   }
   .social-link {
@@ -44,8 +45,40 @@
   }
   @media screen and (min-width: $tablet) {
     width: 50px;
+    height: auto;
     .social-link {
       margin: 1rem 0;
     }
+  }
+}
+
+.bg-linkedin { 
+  background-color: $linkedin-color; 
+  &:hover {
+    background-color: darken($linkedin-color, 10%);
+  }
+}
+.bg-github {
+  background-color: $github-color;
+  &:hover {
+    background-color: lighten($github-color, 10%);
+  }
+}
+.bg-youtube {
+  background-color: $youtube-color;
+  &:hover {
+    background-color: darken($youtube-color, 10%);
+  }
+}
+.bg-sms {
+  background-color: $sms-color;
+  &:hover {
+    background-color: darken($sms-color, 10%);
+  }
+}
+.bg-email {
+  background-color: $email-color;
+  &:hover {
+    background-color: darken($email-color, 10%);
   }
 }
