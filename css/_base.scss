@@ -14,13 +14,13 @@
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
   line-height: 1em;
   font-weight: 400;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
   font-size: 1.05rem;
@@ -33,15 +33,15 @@ li {
   margin-bottom: .5em;
 }
 
-li ul {
-  padding-left: 2em;
+ul {
+  padding-left: 1.5em;
 }
 
 ul {
   margin-top: .5em;
 }
 
-h1 { font-size: 2.3rem; }
+h1 { font-size: 2.4rem; }
 h2 { font-size: 1.9rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.4rem; }

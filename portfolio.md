@@ -1,6 +1,6 @@
 ---
 layout: default
-title: portfolio
+title: Portfolio
 showResumeInNav: true
 permalink: /portfolio/
 ---
@@ -23,6 +23,7 @@ permalink: /portfolio/
     <h1>Select Projects</h1>
     <p>View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">codepen</a> to see more projects.</p>
     <br/>
+    {% include_relative _includes/projectbar.html %}
     <!-- Show Legacy project section if noscript -->
     <noscript>
     {%
