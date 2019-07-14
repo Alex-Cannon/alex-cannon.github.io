@@ -1,14 +1,17 @@
 ---
 ---
-
-// Shared
+// Base and vars
+@import 'vars';
 @import 'base';
-@import 'header';
-@import 'portfolio';
-@import 'footer';
+
+// Includes
+@import './_includes/header';
+@import './_includes/socialbar';
+@import './_includes/footer';
+
+// Layouts
+@import './_layouts/default';
+@import './_layouts/post';
 
 // Pages
-@import 'post';
-
-// Partials
-@import './_includes/socialbar.scss';
+@import './_pages/portfolio';

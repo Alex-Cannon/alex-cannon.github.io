@@ -14,10 +14,10 @@
   width: 100%;
   height: $nav-height;
   padding: 5px 1rem;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ccc;
   background: #fff;
-  * {
-    margin-bottom: 0;
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
   }
   a {
     padding: 0 0.5rem;
@@ -27,10 +27,16 @@
     justify-content: space-between;
     padding: 5px 2.5rem;
   }
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+  }
 }
 
-.top-nav-space {
-  padding-top: 50px;
+// Padding for fixed navbar
+.top-nav-after {
+  height: $nav-height;
+  width: 100%;
+  border: 0;
 }
 
 .nav-left {

@@ -1,16 +1,31 @@
 ---
 layout: default
-title: Portfolio
+title: portfolio
+showResumeInNav: true
 permalink: /portfolio/
 ---
 <div class="portfolio-container">
-  <div class="landing-wrap section">
-    <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>
-    <h1 class="portfolio-description">Hi! I'm Alex & I Build Software.</h1>
-    <p>Click or Scroll to view my projects.</p>
-    <a class="btn btn-lg" href="#gallery">View Projects</a>
+  <div class="landing-wrap">
+    <div class="landing-wrap-content">
+      <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>
+      <div class="portfolio-description">
+        <h1>
+          I'm Alexander, content creator and developer. 
+          <i class="far fa-smile-wink"></i>
+        </h1>
+        <h4>Self-starter. Rapid learner. Warlock in training.</h4>
+        <br/>
+      </div>
+      <div class="btn-group">
+        <a class="btn" href="/assets/Alexander_Cannon_Resume.docx" download>Resume <i class="far fa-file"></i></a>
+        <a class="btn btn-primary" href="#gallery">View Work</a>
+      </div>
+    </div>
   </div>
   <div id="gallery">
+    <br/>
+    <h1>>> Select Projects <<</h1>
+    <br/>
     {%
       include_relative _includes/project.html
       src='/assets/images/cover_voa.png'
@@ -40,13 +55,10 @@ permalink: /portfolio/
       readhref='/post/bearbnb'
       text='Airbnb Clone | Front-End Development'
     %}
-    {% include_relative _includes/project.html 
-      src='/assets/images/cover_freecodecamp.png'
-      alt='FreeCodeCamp Portfolio | Full Stack Development'
-      href='https://freecodecamp-portfolio.glitch.me/'
-      readhref='/post/freecodecampportfolio'
-      text='FreeCodeCamp Portfolio | Full Stack Development'
-    %}
+  </div>
+
+  <div class="about-container">
+  {% include_relative _includes/about.html %}
   </div>
   <div class="section" id="skills">
     <h1>Skills</h1>
@@ -59,9 +71,6 @@ permalink: /portfolio/
     <p>RESTful apis, NodeJS, Express, MongoDB, Mongoose, Passport, C#/Java (Minimal)</p>
     <h3>Other</h3>
     <p>Git, Github, Heroku, mLab, Jekyll, Photoshop</p>
-  </div>
-  <div class="about-container">
-  {% include_relative _includes/about.html %}
   </div>
   <div class="section" id="contact">
     <h1>Contact Me</h1>
