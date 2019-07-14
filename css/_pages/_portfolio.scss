@@ -1,15 +1,12 @@
 @import 'vars';
 
 .section {
-  padding: 2rem 5%;
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-  }
+  padding: 2rem 5vw;
   @media screen and (min-width: $tablet) {
-    padding: 3rem 12.5%;
+    padding: 3rem 10vw;
   }
   @media screen and (min-width: $desktop) {
-    padding: 3rem 25%;
+    padding: 3rem 25vw;
   }
 }
 
@@ -17,31 +14,36 @@
   position: relative;
 }
 
-.portfolio-container .section {
-  @extend .section;
-  border-top: 2px solid $gray-med;
-}
-
 .landing-wrap {
-  min-height: 100vh;
-  padding-top: 50px;
   text-align: center;
+  background-image: url('../../assets/images/banner.jpeg');
+  background-size: cover;
+  color: $text-light;
   .my-face {
-    margin: 5vh 0;
+    margin-bottom: 2vh;
+    border: 2px solid $gray-med;
   }
 }
 
-.landing-face {
-  margin: 5% 0;
+.landing-wrap-content {
+  padding: 5vh 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  @media screen and (min-width: $tablet) {
+    padding: 5vh 50px;
+  }
 }
 
 .my-face {
   display: inline-block;
   border-radius: 100%;
-  max-width: 250px;
+  max-width: 200px;
   width: 100%;
-  @media screen and (min-width: $tablet) {
-    max-width: 400px;
+  @media screen and (min-width: $laptop) {
+    max-width: 200px;
+  }
+  @media screen and (min-width: $desktop) {
+    min-width: 200px;
+    max-width: 10vw;
   }
 }
 

@@ -10,7 +10,8 @@
 @import './_includes/footer';
 
 // Layouts
-@import 'post';
+@import './_layouts/default';
+@import './_layouts/post';
 
 // Pages
 @import './_pages/portfolio';

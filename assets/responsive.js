@@ -7,11 +7,13 @@ const burger = `
     <span class="bar3"></span>
   </div>
 `;
-const links = `
+const links = document.getElementById("nav-right").innerHTML;
+
+/*`
   <a href="/">Blog</a>
   <a href="/about">About</a>
-  <a href="/portfolio">Portfolio</a> 
-`;
+  <a href="/portfolio">Portfolio</a>
+`;*/
 
 function toggleMenu() {
   open = !open;

@@ -4,27 +4,41 @@
 }
 
 *, *::before, *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   &:active, :focus {
     outline: 2px solid $outline;
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: .5rem;
   line-height: 1em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-p, span, i, b, body, ul, ol {
-  margin: 0;
-  margin-bottom: 1em;
+p {
+  font-size: 1rem;
   line-height: 1.5em;
+  margin-bottom: 1em;
+  font-size: 1.05rem;
+  @media screen and (min-width: $tablet) {
+    font-size: 1rem;
+  }
+}
+
+li {
+  margin-bottom: .5em;
 }
 
 li ul {
-  margin: 0;
+  padding-left: 2em;
+}
+
+ul {
+  margin-top: .5em;
 }
 
 h1 { font-size: 2.3rem; }
@@ -37,8 +51,12 @@ h6 { font-size: 1.1rem; }
 body {
   background: $text-light;
   color: #202020;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border: 0;
+  @media screen and (min-width: $desktop) {
+    font-size: .9vw;
+  }
 }
 
 a {
@@ -63,36 +81,73 @@ a {
 
 button, .btn {
   display: inline-block;
-  min-width: 100px;
-  padding: 0.6em 1.5em;
+  min-width: 125px;
+  padding: 0.7em 1.5em;
+  margin: 0 5px;
   background: #eee;
   border: 0;
-  border-radius: 3px;
-  font-size: 1.2rem;
+  border-radius: 7px 1px 7px 1px;
+  font-size: 1rem;
   font-weight: 400;
   color: $text-dark;
   text-decoration: none;
+  transition: 0.2s ease-in;
   cursor: pointer;
   &:hover {
-    background: $gray-med;
-    color: $text-dark;
+    background: darken(#eee, 10%);
     text-decoration: none;
+    color: $text-dark;
   }
-  transition: 0.2s ease-in-out;
+  &:active, :focus {
+    outline: 1px solid $outline;
+  }
 }
 
 .btn-lg {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn-danger {
   background: $text-danger;
   color: $text-light;
   &:hover {
-    background: darken($text-danger, 10%);
+    background: darken($text-danger, 5%);
     color: $text-light;
     text-decoration: none;
   }
+}
+
+.btn-primary {
+  background: $accent;
+  color: $text-light;
+  &:hover {
+    background: darken($accent, 10%);
+    color: $text-light;
+  }
+}
+
+.btn-primary {
+  background: $accent;
+  color: $text-light;
+  &:hover {
+    background: darken($accent, 10%);
+    animation: btn-primary 1.2s infinite;
+  }
+  &:active, &:focus, &:visited {
+    color: $text-light;
+  }
+}
+
+@keyframes btn-primary {
+  0% { background-color: $accent; }
+  50% { background-color: darken($accent, 12%); }
+  100% { background-color: $accent }
 }
 
 .btn-info {

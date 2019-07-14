@@ -6,14 +6,21 @@
     <div id="nav-right">
       <a href="/">Blog</a>
       <a href="/about">About</a>
-      <a href="/portfolio">Portfolio</a>  
+      <a href="/portfolio">Portfolio</a>
+      {% if page.title == "portfolio" %}
+        <a href="/assets/Alexander_Cannon_Resume.docx" download>Resume</a>
+      {% endif %}
     </div>
   </div>
   <div id="mobile-menu">
     <a href="/">Blog</a>
     <a href="/about">About</a>
-    <a href="/portfolio">Portfolio</a>  
+    <a href="/portfolio">Portfolio</a>
+    {% if page.title == "portfolio" %}
+      <a href="/assets/Alexander_Cannon_Resume.docx" download>Resume</a>
+    {% endif %}
   </div>
 </nav>
 <body>
-{% include socialbar.html %}
+  <div class="top-nav-after"></div>
+  {% include socialbar.html %}
