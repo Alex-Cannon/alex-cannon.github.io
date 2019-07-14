@@ -1,0 +1,12 @@
+@import '../vars';
+
+.project-bar-thumb {
+  display: flex;
+  width: 50%;
+}
+
+.project-bar-thumb-img {
+  display: flex;
+  width: 100%;
+  border: 2px solid #ccc;
+}
