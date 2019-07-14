@@ -72,9 +72,6 @@
   text-align: center;
   width: 100%;
   @media screen and (min-width: $tablet) {
-    width: 75%;
-  }
-  @media screen and (min-width: $desktop) {
     width: 50%;
   }
 }
