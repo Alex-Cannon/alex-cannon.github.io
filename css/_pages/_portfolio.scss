@@ -15,7 +15,6 @@
 }
 
 .landing-wrap {
-  text-align: center;
   background-color: #555;
   background-image: url('../../assets/images/banner.jpeg');
   background-size: cover;
@@ -27,17 +26,18 @@
 }
 
 .landing-wrap-content {
-  padding: 5vh 1rem;
+  padding: 3vh 1rem;
   background: rgba(0, 0, 0, 0.5);
+  text-align: center;
   @media screen and (min-width: $tablet) {
-    padding: 5vh 50px;
+    padding: 2vh 50px;
   }
 }
 
 .my-face {
   display: inline-block;
   border-radius: 100%;
-  max-width: 200px;
+  max-width: 175px;
   width: 100%;
   @media screen and (min-width: $laptop) {
     max-width: 200px;
@@ -50,6 +50,11 @@
 
 .portfolio-description {
   font-weight: 400;
+  margin-bottom: 3vh;
+  font-size: 30px;
+  @media screen and (min-width: $tablet) {
+    font-size: 2.3rem;
+  }
 }
 
 #gallery {

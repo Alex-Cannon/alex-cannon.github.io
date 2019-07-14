@@ -8,14 +8,10 @@ permalink: /portfolio/
   <div class="landing-wrap">
     <div class="landing-wrap-content">
       <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>
-      <div class="portfolio-description">
-        <h1>
-          I'm Alexander, content creator and developer. 
-          <i class="far fa-smile-wink"></i>
-        </h1>
-        <h4>Self-starter. Rapid learner. Warlock in training.</h4>
-        <br/>
-      </div>
+      <h1 class="portfolio-description">
+        I'm Alexander, content creator and developer. 
+        <i class="far fa-smile-wink"></i>
+      </h1>
       <div class="btn-group">
         <a class="btn" href="/assets/Alexander_Cannon_Resume.docx" download>Resume <i class="far fa-file"></i></a>
         <a class="btn btn-primary" href="#gallery">View Work</a>
