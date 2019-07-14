@@ -20,8 +20,11 @@ permalink: /portfolio/
   </div>
   <div id="gallery">
     <br/>
-    <h1>>> Select Projects <<</h1>
+    <h1>Select Projects</h1>
+    <p>View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">codepen</a> to see more projects.</p>
     <br/>
+    <!-- Show Legacy project section if noscript -->
+    <noscript>
     {%
       include_relative _includes/project.html
       src='/assets/images/cover_voa.png'
@@ -51,6 +54,7 @@ permalink: /portfolio/
       readhref='/post/bearbnb'
       text='Airbnb Clone | Front-End Development'
     %}
+    </noscript>
   </div>
 
   <div class="about-container">
