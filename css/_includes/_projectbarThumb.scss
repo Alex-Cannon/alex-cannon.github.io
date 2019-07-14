@@ -2,17 +2,11 @@
 
 .project-bar-thumb {
   display: flex;
-  border: 1px solid #ccc;
-
+  width: 50%;
 }
 
 .project-bar-thumb-img {
-  //max-height: 100px;
+  display: flex;
   width: 100%;
-  @media screen and (min-width: $laptop) {
-    max-height: 150px;
-  }
-  @media screen and (min-width: $desktop) {
-    max-height: 16vh;
-  }
+  border: 2px solid #ccc;
 }

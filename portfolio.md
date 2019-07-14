@@ -18,48 +18,18 @@ permalink: /portfolio/
       </div>
     </div>
   </div>
+
   <div id="gallery" class="section">
     <h1>Select Projects</h1>
     <p>Click a project below to read more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">codepen</a> to see more projects.
     </p>
     {% include_relative _includes/projectSection.html %}
-    <!-- Show Legacy project section if noscript -->
-    <noscript>
-    {%
-      include_relative _includes/project.html
-      src='/assets/images/cover_voa.png'
-      alt='Volunteer Core'
-      href='https://vmt-rsvplarimer.herokuapp.com/'
-      readhref='/post/volunteer-core'
-      text='Volunteers For America "CRM" | Front-End Development'
-    %}
-    {% include_relative _includes/project.html 
-      src='/assets/images/cover_codebin.jpg'
-      alt='Online Webpage Editor | Full Stack Development'
-      href='https://c0d3bin.herokuapp.com/'
-      readhref='/post/codebin'
-      text='Online Webpage Editor | Full Stack Development'
-    %}
-    {% include_relative _includes/project.html 
-      src='/assets/images/cover_secretsanta.png'
-      alt='Secret Santa Online | Full Stack Development'
-      href='https://secret-santa-13.herokuapp.com'
-      readhref='/post/secretsanta'
-      text='Secret Santa Shop | Full Stack Development'
-    %}
-    {% include_relative _includes/project.html 
-      src='/assets/images/cover_bearbnb.png'
-      alt='Airbnb Clone | Front-End Development'
-      href='https://bearbnb-06.herokuapp.com'
-      readhref='/post/bearbnb'
-      text='Airbnb Clone | Front-End Development'
-    %}
-    </noscript>
   </div>
 
   <div class="about-container">
   {% include_relative _includes/about.html %}
   </div>
+  
   <div class="section" id="skills">
     <h1>Skills</h1>
     <p>I believe that technology should <i>solve problems</i> instead of complicating them.<br/><b>That's why I actively learn the tech needed to get the job done!</b><br/> With that said, I'm most familiar with <u>JavaScript, HTML, CSS, ReactJS, NodeJS, Express, and MongoDB.</u></p>
@@ -72,6 +42,7 @@ permalink: /portfolio/
     <h3>Other</h3>
     <p>Git, Github, Heroku, mLab, Jekyll, Photoshop</p>
   </div>
+
   <div class="section" id="contact">
     <h1>Contact Me</h1>
     <p>Hi! Let's chat. Send me an email/message through any of the services below. I'm most active on LinkedIn and Github.</p>
