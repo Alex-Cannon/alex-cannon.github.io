@@ -18,12 +18,11 @@ permalink: /portfolio/
       </div>
     </div>
   </div>
-  <div id="gallery">
-    <br/>
+  <div id="gallery" class="section">
     <h1>Select Projects</h1>
-    <p>View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">codepen</a> to see more projects.</p>
-    <br/>
-    {% include_relative _includes/projectbar.html %}
+    <p>Click a project below to read more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">codepen</a> to see more projects.
+    </p>
+    {% include_relative _includes/projectSection.html %}
     <!-- Show Legacy project section if noscript -->
     <noscript>
     {%

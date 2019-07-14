@@ -1,0 +1,18 @@
+@import '../vars';
+
+.project-bar-thumb {
+  display: flex;
+  border: 1px solid #ccc;
+
+}
+
+.project-bar-thumb-img {
+  //max-height: 100px;
+  width: 100%;
+  @media screen and (min-width: $laptop) {
+    max-height: 150px;
+  }
+  @media screen and (min-width: $desktop) {
+    max-height: 16vh;
+  }
+}
