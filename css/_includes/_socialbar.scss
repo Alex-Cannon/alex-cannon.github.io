@@ -1,0 +1,34 @@
+@import '../vars';
+
+.social-bar-wrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  @media screen and (min-width: $tablet) {
+    right: initial;
+    top: 0;
+    flex-direction: column;
+  }
+  .social-bar {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    @media screen and (min-width: $tablet) {
+      flex-direction: column;
+    }
+  }
+  .social-link-btn {
+    flex: 1;
+    height: 40px;
+    @media screen and (min-width: $tablet) {
+      flex: none;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
