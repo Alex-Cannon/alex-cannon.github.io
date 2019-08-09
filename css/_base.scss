@@ -114,13 +114,14 @@ button, .btn {
 }
 
 .btn-danger {
-  background: $text-danger;
+  @extend .btn-primary;
+  /*background: $text-danger;
   color: $text-light;
   &:hover {
     background: darken($text-danger, 5%);
     color: $text-light;
     text-decoration: none;
-  }
+  }*/
 }
 
 .btn-primary {
