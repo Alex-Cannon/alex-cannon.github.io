@@ -1,9 +1,17 @@
+<!--Create variable -->
+
 <div class="gallery-project">
-  <img class="gallery-image" src="{{include.src}}" alt="{{include.alt}}"/>
+  {% include embedVideo.html
+    src=include.video_embedded_link
+  %}
   <div class="gallery-project-describe">
     <h4>{{ include.text }}</h4>
     <p>Role: {{ include.role }}</p>
-    <a class="btn btn-danger" href="{{include.href}}" rel="noreferer noopener">View Live</a>
-    <a class="btn" href="{{include.readhref}}">Read More</a>
+    {% if include.href %}
+      <a class="btn btn-danger" href="{{include.href}}" rel="noreferer noopener">View Live</a>
+    {% endif %}
+    {% if include.sourcehref %}
+    <a class="btn" href="{{include.sourcehref}}"><i class="fab fa-github"></i>&nbsp;Source</a>
+    {% endif %}
   </div>
 </div>
