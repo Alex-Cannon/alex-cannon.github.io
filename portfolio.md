@@ -13,7 +13,7 @@ permalink: /portfolio/
         <i class="far fa-smile-wink"></i>
       </h1>
       <div class="btn-group">
-        <a class="btn" href="/assets/Alexander_Cannon_Resume.docx" download>Resume <i class="far fa-file"></i></a>
+        <a class="btn" href="/assets/alexander_cannon_resume.pdf" download>Resume <i class="far fa-file"></i></a>
         <a class="btn btn-primary" href="#gallery">View Work</a>
       </div>
     </div>
