@@ -15,8 +15,11 @@ allowing developers to focus on other, more important parts of the application.
 React is also commonly used to create SPAs or Single Page Applications and it is incredibly fast. Traditionally, users interacted with websites like so:
 
 1) User requests /home
+
 2) Server responds with home.html
+
 3) User requests /signin
+
 4) Server responds with signin.html
 
 Every time a user requests a different page, HTTP requests are sent between the server and user. This means that the user's computer must 
@@ -41,13 +44,21 @@ never have to see that pesky white screen every time they click a link. They are
 Now, our user to server interaction looks like so:
 
 1) User requests /home
+
 2) Server responds with generic.html (small .html file with LITTLE content. React handles all content)
+
 3) User's React renders /home.html with JavaScript
+
 4) User requests /signin
+
 5) User's React renders /signin
+
 6) User enters credentials and hits "sign in" button.
+
 7) HTTP request sent to server with credentials.
+
 8) If Server processes the request successfully, sends a 200 status back.
+
 9) React redirects user to another part of the site
 
 ## What is Redux?
