@@ -4,40 +4,41 @@ title: 'What you need to get a job'
 date:   2019-06-12 00:00:00 -0600
 tags: getting-a-job 
 ---
-Want to get into Software Development? This post is for you. In this blog I'll talk about the steps you can take to get a job as a software developer. It is challenging to get into the industry so I hope this information will be valuable to you.
+Want to get a job as a Software Developmer? Great! It can be _very_ challenging to get into the industry, so I hope this blog post will help you get a job.
 
-A little bit of background about me: My name is Alex Cannon. I've been teaching myself software developement for the past 2 years and I'm excited to say I've accepted a DevOps internship that I hope will transition into a job. I create videos and blogs about software development so [subscribe](https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber) if you'd like to hear more from me.
+I'm a self-taught developer. Maybe you taught yourself, went to college, or went through a coding bootcamp. If you've started applying to jobs, you may find that getting a job is as difficult as learning to program!
 
-If you're like me, maybe you taught yourself. Maybe you went to college or went through a bootcamp. There's a lot of content out there on advice for getting a software developer job. Let's make this simple. Here's my advice in one sentence:
+The first thing you should realize about this industry is...
 
-_You need **Experience**._
+_The IT industry highly values **Experience**._
 
-Yep. Getting a job as a developer is that simple. Get experience. Even junior/entry-level developers and interns need experience. **Yes, even interns need experience!** Gauge how much experience you need by looking at job boards.
+The more experience you can get, the better. Understandably, companies are scared of hiring developers that don't know how to code as they cost ~twice as much as regular employees. Simple, right?
 
-_"Hey! That's a catch-22. I can't get experience without a job."  --Jane Doe_
+_"But Alex, that's a catch-22. I can't get experience without a job." --Negative Nancy_
 
-Who said you need a job to get experience? I imagine you have some skill if you're reading this. Now, you need to use it. Below are ways you can gain experience.
+False! We don't give up just because people quote catch-22. The reality is this: **You can get experience without a job.** It's very simple (and I love me some simple!). Below are several ways to get experience:
 
 1. <u>Write Software for people</u>
     * Write Software for non-profits.
-        * Fastest way to start writing software for people.
-        * They aren't worried about deadlines.
-        * Volunteer work looks good on your resume.
-    * Write Software for acquaintances.
-        * Why don't I write software for family/friends? Because I don't want to lose family/friends. It's OK if your relationship turns sour for an acquaintances.
-    * Write Software for businesses.
-        * At this point, you could create a business-as entity and **all of the sudden, you're working as a developer for your business-as entity.** Now, if an employer asks, you should tell them yes, you own the business. <u>Don't lie</u>. The whole point is to gain experience, not decieve people. 
-        * It can be difficult to get customers, especially since you don't have experience. Try to network. Go to meetups and ask people how _you_ can help _them_.
-        * You _may_ have to charge less. But, remember, you're doing _them_ a favor. You're work _is_ valuable.
+        * Easy &amp; fast way to start writing software for people.
+        * Flexible on deadlines.
+        * Volunteer work looks great on your resume.
+    * Write Software for your business.
+        * You could create a business and start developing an app, website, etc. and try to make money. On your resume, you can put "Owner and Lead Software Engineer".
+        * If you choose to do this, **be honest**. Don't try to decieve anyone into thinking you have more experience than you do.
+        * You'll likely lose money (most businesses fail), so I recommend keeping your expenses low and focusing on getting a product out to market with as small a budget as possible.
+    * Write Software for friends of friends or businesses.
+        * You can network around and see if there's work you can do for a friend of a friend. I don't recommend doing business with close friends in case the deal doesn't work out.
+        * You will probably have to keep your rates low as you don't have a ton of experience.
 2. <u>Write Software for practice</u>
-    * Tutorials do NOT count. Monkeys can follow tutorials. You aren't a monkey, are you? Show me you aren't.
+    * Tutorials don't count as practice. _Show_ people you can do better than a monkey!
     * Any software your write for practice should be a project. What do I consider a project?
         1. Must do _something_!
         2. Must be **complete!**
         3. Try to make it _different_ and _more_ impressive than other people's projects.
         4. For example, I worked with a team to clone airbnb. How many people have cloned airbnb? Not a lot. Of course we could've made our own _creative_ project that would have been _more_ different and/or impressive.
 
-Simple, right? So, you have 2 options to get experience. <b>I highly, highly recommend that you <u>write software for people.</u></b> It is tremendously more valuable than writing software for practice.
+Simple, right? So, you have 2 options to get experience. **I recommend that you <u>write software for people as much as you can.</u>** Writing software for other people is simply more impressive than writing software for fun or practice.
 
 Think about this: You're a business. Who would you pick:
 
@@ -45,7 +46,7 @@ A developer who...
 1. Has built software for other people/businesses.
 2. Has built software, that, _in theory_, should work for your business.
 
-I agree. I'd pick #1 too. Now that you know **what** you need to do, you need to figure out **how** you're going to do it. Again, it's simple. **Make a Plan.**
+Now that you know **what** you need to do, you need to figure out **how** you're going to do it. Again, it's simple. **Make a Plan.**
 
 You know yourself best. Don't plan for 5 hours a day of development when you know you're really only going to do 2. Make a plan you feel is _achievable_ and _worth_ your hard work and time.
 
