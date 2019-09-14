@@ -6,7 +6,7 @@ tags: development react redux
 ---
 Hi! Welcome to another blog post. Today I'm going to give a brief overview of how React and Redux work together.
 
-Recently, I had the opportunity to begin learning Redux, so I thought "why not share some of m knowledge?"
+Recently, I had the opportunity to begin learning Redux, so I thought "why not share some of my knowledge?"
 
 ## What is React?
 In one sentence, **react is state management for JavaScript**. It abstracts state management for UI components in a web application, 
