@@ -67,12 +67,6 @@ a {
   }
 }
 
-em {
-  font-weight: 400;
-}
-
-
-
 .text-emphasis {
   display: inline-block;
   background: #efefef;
@@ -81,6 +75,10 @@ em {
   color: $accent;
   font-weight: bold;
   border: 0;
+}
+
+em {
+  font-weight: 400;
 }
 
 .social-link {
