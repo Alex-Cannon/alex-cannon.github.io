@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'How React and Redux work together'
 date:   2019-09-11 00:00:00 -0650
 tags: development react redux 
