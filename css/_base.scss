@@ -68,12 +68,17 @@ a {
 }
 
 em {
+  font-weight: 400;
+}
+
+.text-emphasis {
   display: inline-block;
   background: #efefef;
   border-radius: 2px;
   padding: .15em .5em;
   color: $accent;
   font-weight: bold;
+  border: 0;
 }
 
 .social-link {
