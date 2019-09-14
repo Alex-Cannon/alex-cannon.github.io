@@ -35,7 +35,8 @@ li {
 
 ul, ol {
   padding-left: 2em;
-  margin: 1em 0;
+  margin-bottom: 1em;
+  margin-top: .25em;
 }
 
 h1 { font-size: 2.4rem; }
@@ -64,6 +65,15 @@ a {
     color: darken($text-info, 10%);
     text-decoration: underline;
   }
+}
+
+em {
+  display: inline-block;
+  background: #efefef;
+  border-radius: 2px;
+  padding: .15em .5em;
+  color: $accent;
+  font-weight: bold;
 }
 
 .social-link {
@@ -162,6 +172,7 @@ button, .btn {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0;
   @media screen and (min-width: $tablet) {
     flex-direction: row;
     flex-wrap: wrap;

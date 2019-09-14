@@ -13,7 +13,9 @@ permalink: /portfolio/
         <i class="far fa-smile-wink"></i>
       </h1>
       <div class="btn-group">
-        <a class="btn" href="/assets/alexander_cannon_resume.pdf" download>Resume <i class="far fa-file"></i></a>
+        <a class="btn" href="/assets/alexander_cannon_resume.pdf" download>
+          Resume <i class="far fa-file"></i>
+        </a>
         <a class="btn btn-primary" href="#gallery">View Work</a>
       </div>
     </div>
@@ -27,20 +29,7 @@ permalink: /portfolio/
   </div>
 
   <div class="about-container">
-  {% include_relative _includes/about.html %}
-  </div>
-  
-  <div class="section" id="skills">
-    <h1>Skills</h1>
-    <p>I believe that technology should <i>solve problems</i> instead of complicating them.<br/><b>That's why I actively learn the tech needed to get the job done!</b><br/> With that said, I'm most familiar with <u>JavaScript, HTML, CSS, ReactJS, NodeJS, Express, and MongoDB.</u></p>
-    <p>I write software mostly <b>every day</b> to stay on top of the new jazzy tech. <br/>It takes <b>hard work</b> and dedication to live up to my high standards for quality work.</p>
-    <br/>
-    <h3>Front-End</h3>
-    <p>JavaScript, ReactJS, JQuery, HTML, CSS, Sass, Bootstrap, Mobile-First, Responsive Design</p>
-    <h3>Back-End</h3>
-    <p>RESTful apis, NodeJS, Express, MongoDB, Mongoose, Passport, C#/Java (Minimal)</p>
-    <h3>Other</h3>
-    <p>Git, Github, Heroku, mLab, Jekyll, Photoshop</p>
+    {% include_relative _includes/about.html %}
   </div>
 
   <div class="section" id="contact">
