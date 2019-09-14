@@ -4,7 +4,7 @@ title: 'What you need to get a job'
 date:   2019-06-12 00:00:00 -0600
 tags: getting-a-job 
 ---
-Want to get a job as a Software Developmer? Great! It can be _very_ challenging to get into the industry, so I hope this blog post will help you get a job.
+Want to get a job as a Software Developer? Great! It can be _very_ challenging to get into the industry, so I hope this blog post will help you get a job.
 
 I'm a self-taught developer. Maybe you taught yourself, went to college, or went through a coding bootcamp. If you've started applying to jobs, you may find that getting a job is as difficult as learning to program!
 
