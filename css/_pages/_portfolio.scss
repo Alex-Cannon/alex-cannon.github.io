@@ -86,7 +86,7 @@
 
 .gallery-project-describe {
   background: $text-light;
-  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio-video {
@@ -94,6 +94,7 @@
   width: 100%;
   padding-top: 56.25%;
   margin-bottom: 1rem;
+  border: 1px solid $gray-med;
 }
 
 .portfolio-quote {
