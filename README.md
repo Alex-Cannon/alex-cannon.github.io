@@ -21,7 +21,7 @@ docker run --rm \
   jekyll serve
 ```
 
-5) Go to http://localhost:4000 to see the site running.
+5) Go to localhost:4000 to see the site running.
 
 **OR...**
 
