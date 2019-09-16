@@ -16,9 +16,12 @@ Follow these steps to get started:
 ```
 docker run --rm \
   --volume="$PWD:/srv/jekyll" \
+  -p 4000:4000 \
   -it jekyll/jekyll \
   jekyll serve
 ```
+
+5) Go to http://localhost:4000 to see the site running.
 
 **OR...**
 
