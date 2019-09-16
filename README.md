@@ -8,7 +8,10 @@ Want to create your own blog hosted by github pages?
 Follow these steps to get started:
 
 1) Fork this repo
-2) Run Jekyll in Docker:
+2) Clone fork locally
+3) Navigate to the root directory of the repo
+4) Run Jekyll in Docker:
+  1) $PWD means absolute path to the current directory.
 
 ```
 docker run --rm \
