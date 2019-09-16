@@ -7,10 +7,13 @@
     border-bottom: 0px;
   }
   @media screen and (min-width: $tablet) {
-    padding: 1.5rem 10vw;
+    padding: 1rem 70px;
   }
   @media screen and (min-width: $laptop) {
-    padding: 1.5rem 25vw;
+    padding: 1.5rem 12vw;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 1.5rem 22vw;
   }
 }
 

@@ -1,6 +1,12 @@
 @import 'vars';
 :root {
-  font-size: 17px;
+  font-size: 16px;
+  @media screen and (min-width: $desktop) {
+    font-size: 17px;
+  }
+  @media screen and (min-width: 1800px) {
+    font-size: 0.9vw;
+  }
 }
 
 *, *::before, *::after {
@@ -20,13 +26,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-  font-size: 1.1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
-  font-size: 1.05rem;
-  @media screen and (min-width: $tablet) {
-    font-size: 1rem;
-  }
 }
 
 li {
@@ -52,9 +53,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   border: 0;
-  @media screen and (min-width: $desktop) {
-    font-size: .9vw;
-  }
 }
 
 a {
