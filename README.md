@@ -7,14 +7,29 @@ Want to create your own blog hosted by github pages?
 # Get Started
 Follow these steps to get started:
 
+1) Fork this repo
+2) Clone fork locally
+3) Navigate to the root directory of the repo
+4) Run Jekyll in Docker:
+    * $PWD means absolute path to the current directory.
+
+```
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -p 4000:4000 \
+  -it jekyll/jekyll \
+  jekyll serve
+```
+
+5) Go to localhost:4000 to see the site running.
+
+**OR...**
+
 1) Follow the [Jekyll Installation](https://jekyllrb.com/docs/installation/) Guide.
-2) Fork this repo
-    * $ git clone _your-fork-name_
-3) Checkout the *Jekyll* branch. This branch is for development.
-4) Install dependencies
+2) Install dependencies
     * You may have to remove "#" comments in the Gemfile. This is required to bundle the site for deployment.
     * $ gem install
-5) Start the server.
+3) Start the server.
     * $ jekyll serve
 Now, the development server should be running on localhost:4000.
 
