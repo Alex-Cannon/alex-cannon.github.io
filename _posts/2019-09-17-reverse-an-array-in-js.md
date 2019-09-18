@@ -2,7 +2,8 @@
 layout: post
 title: Reverse an array in JavaScript
 date:   2019-09-17 00:00:00 -0650
-tags: development javascript algorithms 
+tags: development javascript algorithms
+codeLanguage: language-javascript
 ---
 
 Hello! How's it going? It's common for interviewers to ask programmers how to reverse an array. You would be surprised with the number of programmers unable to do this! 
