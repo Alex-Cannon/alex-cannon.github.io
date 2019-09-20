@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interview prep - Reverse an array in JavaScript
+title: JS Algorithm - Reverse an array
 date:   2019-09-17 00:00:00 -0650
 tags: development javascript algorithms
 codeLanguage: language-javascript

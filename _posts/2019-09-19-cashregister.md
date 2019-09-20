@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interview prep - Get Change Algorithm
+title: JS Algorithm - Get Change Algorithm
 date:   2019-09-19 00:00:00 -0650
 tags: development javascript algorithms interview
 codeLanguage: language-javascript
