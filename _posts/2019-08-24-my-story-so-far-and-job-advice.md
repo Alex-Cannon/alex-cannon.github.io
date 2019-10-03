@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'My Story So Far & Job Advice'
+title: My Story So Far
 date:   2019-08-24 00:00:00 -0650
 tags: development environment 
 ---
 {% 
     include embedVideo.html 
-    src="https://www.youtube.com/embed/GY2oUCBi4cg"
+    src="https://www.youtube.com/embed/dwHEPl6FXzQ"
 %}
 
 I learned some of what I know from a book written by John Sonmez, <a href="https://www.amazon.com/gp/product/0999081411/ref=as_li_tl?ie=UTF8&tag=alexcannon-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0999081411&linkId=39972bcd3b9989de7ca8e05b60365375">The Complete Software Developer's Career Guide</a>:
