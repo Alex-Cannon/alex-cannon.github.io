@@ -6,8 +6,7 @@ tags: development javascript react
 codeLanguage: language-javascript
 ---
 Hello! This post is a work-in-progress. Lately I've been focusing on increasing my knowledge of algorithms and code testing. In this post,
-I'll showcase a code snippet where I implement a `paint bucket` algorithm. I'll slow down the algorithm so that it is clear how the algorithm 
-works. I think it'll be interesting to build!
+I'll showcase a code snippet where I implement a `paint bucket` algorithm. I'll slow down the algorithm so that it is clear [how the algorithm works](https://en.wikipedia.org/wiki/Flood_fill#The_algorithm). I think it'll be interesting to build!
 
 I'm using vanilla JavaScript and React to implement the algorithm. Here is the live example:
 
