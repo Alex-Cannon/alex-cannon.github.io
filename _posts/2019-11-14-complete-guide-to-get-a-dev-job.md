@@ -37,7 +37,7 @@ I already have an [about](https://alex-cannon.github.io/about) page where you ca
 * 2018-02 - Stopped Coding, unsure of what I wanted to do.
 * 2018-06 - Moved out. Got a job.
 * 2018-08 - Started coding again.
-* 2019-02 - Left Job. Moved to Fort Collins to be closer to Tech.
+* 2019-02 - Left Job. Relocated to be closer to Tech.
 * 2019-11 - After applying for a TON of jobs, accepted an offer!
 * Present - Starting my job in two weeks. Preparing for it.
 * Future - Continuing to learn & grow myself and my blog for all of you.
