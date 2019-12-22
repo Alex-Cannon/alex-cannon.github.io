@@ -10,7 +10,7 @@ permalink: /portfolio/
       <img class="my-face" src="/assets/images/face_small.jpg" alt="My Face"/>
       <h1 class="portfolio-description">
         I'm Alexander, content creator and developer. 
-        <i class="far fa-laugh"></i>
+        <i class="far fa-smile"></i>
       </h1>
       <div class="btn-group">
         <a class="btn" href="/assets/alexander_cannon_resume.pdf" download>
