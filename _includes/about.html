@@ -12,7 +12,7 @@
   </div>
   <p>Below are a few examples of my acomplishments:</p>
   <ul>
-    <li><em class="text-emphasis"><i id="exp-years">2</i> years, <i id="exp-days">120</i> days</em> of experience developing software.</li>
+    <li><em class="text-emphasis"><i id="exp-years">2</i> years, <i id="exp-months">120</i> months</em> of experience developing software.</li>
     <li>Mentored developers via +50 hours of <a href="https://www.youtube.com/channel/UCLX0n9oWmGkjKmK8iuPf8wQ?view_as=subscriber" target="_blank" rel="noopener noreferer">software development content</a> focusing on:
       <ul>
         <li>Best practices, standards, and methodologies.</li>
@@ -43,12 +43,13 @@
 </div>
 <script>
   (() => {
-    const STARTED_LEARNING_DATE = new Date(2018, 1, 1);
+    const STARTED_LEARNING_DATE = new Date(2018, 0, 0);
     const CURRENT_DATE = new Date(Date.now());
     let elementYears = document.getElementById("exp-years");
-    let elementDays = document.getElementById("exp-days");
+    let elementMonths = document.getElementById("exp-months");
 
-    elementYears.innerHTML = CURRENT_DATE.getFullYear() - STARTED_LEARNING_DATE.getFullYear();
-    elementDays.innerHTML = Math.floor((CURRENT_DATE.getTime() - STARTED_LEARNING_DATE.getTime()) / 1000 / 60 / 60 / 24 % 365);
+    const years = CURRENT_DATE.getFullYear() - STARTED_LEARNING_DATE.getFullYear();
+    elementYears.innerHTML = years;
+    elementMonths.innerHTML = Math.abs(STARTED_LEARNING_DATE.getMonth() - CURRENT_DATE.getMonth()) + 1;
   })()
 </script>
