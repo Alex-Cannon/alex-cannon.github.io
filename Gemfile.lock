@@ -8,6 +8,12 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    autoprefixer-rails (9.7.6)
+      execjs
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -211,6 +217,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    popper_js (1.16.0)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -242,7 +249,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0)
   github-pages
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

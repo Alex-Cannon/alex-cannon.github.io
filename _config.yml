@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 sass:
-  sass_dir: css
+  sass_dir: assets/css
   style: compressed
 
 permalink: /post/:categories/:title
