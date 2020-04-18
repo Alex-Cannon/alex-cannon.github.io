@@ -1,21 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">Alex Cannon Blog</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item {% if page.url == '/blog' %} active {% endif %}">
         <a class="nav-link" href="/blog">Blog</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/about' %} active {% endif %}">
         <a class="nav-link" href="/about">About</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/portfolio' %} active {% endif %}">
         <a class="nav-link" href="/portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/assets/alexander_cannon_resume.pdf">
+        <a class="nav-link" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
           Resume <i class="fas fa-file-download"></i>
         </a>
       </li>
@@ -23,5 +23,3 @@
   </div>
 </nav>
 <body>
-  <div class="container-fluid">
-  {% include socialbar.html %}

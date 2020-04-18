@@ -1,7 +1,11 @@
 ---
 ---
 @import 'vars';
+@import 'base';
+
 @import 'iframe-container';
+@import './_includes/socialLinks';
+
 
 /* Temporarily remove custom styles
 // Base and vars
@@ -13,7 +17,6 @@
 @import './_includes/header';
 @import './_includes/socialbar';
 @import './_includes/footer';
-@import './_includes/socialLinks';
 @import './_includes/projectSection';
 @import './_includes/projectbarThumb';
 @import './_includes/about';

@@ -1,9 +1,20 @@
 ---
-layout: blog
+layout: default
 title: Home
-permaLink: /
 ---
-<h2>Blog Posts</h2>
-<p>
-  <a href="/portfolio">Click here</a> to view my portfolio.
-</p>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-sm-12">
+      {% include jumbotronLanding.html %}
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-8 col-lg-6">
+      <h2>Recent Posts</h2>
+
+      {% include feed.html %}
+    </div>
+  </div>
+</div>

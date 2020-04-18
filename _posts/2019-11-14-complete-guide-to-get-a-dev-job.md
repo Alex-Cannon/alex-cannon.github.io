@@ -2,11 +2,9 @@
 layout: post
 title: Step by Step guide to get a dev job
 date:   2019-11-14 00:00:00 -0650
-tags: development javascript
+categories: development javascript
 codeLanguage: language-javascript
 ---
-
-## Preface
 
 Hi! I'm Alex Cannon. I create blog content to help developers like you improve their code, learn new topics, and more. **I recently accepted a job offer as a `Junior Software Engineer` so I figured I could help someone else land a job too.**
 
