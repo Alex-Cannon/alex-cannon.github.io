@@ -1,14 +1,17 @@
 <div>
   {% for post in site.posts %}
-    <a href="{{post.url}}" class="card-container text-decoration-none">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title" style="text-underline: none;">{{ post.title }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %d, %Y" }}</h6>
-          <p class="card-text">{{ post.content | strip_html | truncatewords: 50 }}</p>
-          <a href="{{ post.url }}">Continue reading</a>
-        </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="text-underline: none;">
+          <a href="{{ post.url }}" class="text-decoration-none">
+            {{ post.title }}
+          </a>
+        </h4>
+        <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %d, %Y" }}</h6>
+        <p class="card-text">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Continue reading</a>
       </div>
-    </a>
+    </div>
+    <br/>
   {% endfor %}
 </div>

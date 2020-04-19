@@ -14,29 +14,31 @@ _this.add function should return true if the value is successfully added and fal
 
 ### My Solution:
 
-```
-function Set() {
-    // the var collection will hold our set
-    var collection = [];
-    // this method will check for the presence of an element and return true or false
-    this.has = function(element) {
-        return (collection.indexOf(element) !== -1);
-    };
-    // this method will return all the values in the set
-    this.values = function() {
-        return collection;
-    };
-    
-    // This is the function that needed added
-    // It's very simple!
-    this.add = function(element) {
-        if (!this.has(element)) {
-            collection.push(element);
-            return true;
+<pre>
+    <code class="language-javascript">
+        function Set() {
+            // the var collection will hold our set
+            var collection = [];
+            // this method will check for the presence of an element and return true or false
+            this.has = function(element) {
+                return (collection.indexOf(element) !== -1);
+            };
+            // this method will return all the values in the set
+            this.values = function() {
+                return collection;
+            };
+            
+            // This is the function that needed added
+            // It's very simple!
+            this.add = function(element) {
+                if (!this.has(element)) {
+                    collection.push(element);
+                    return true;
+                }
+                return false;
+            }
         }
-        return false;
-    }
-}
-```
+    </code>
+</pre>
 
 Thanks for reading!

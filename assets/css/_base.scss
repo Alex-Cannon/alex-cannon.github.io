@@ -1,5 +1,8 @@
-body, p {
-  font-size: 17px;
+body, p, li {
+  font-size: 16px;
+  @media screen and (min-width: $desktop) {
+    font-size: 0.9vw;
+  }
 }
 
 .card-container {
@@ -10,5 +13,23 @@ body, p {
   }
   &:hover {
     cursor: pointer;
+    border: 2px solid red;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+h1 {
+  @media screen and (max-width: $tablet) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  @media screen and (max-width: $tablet) {
+    font-size: 30px;
   }
 }

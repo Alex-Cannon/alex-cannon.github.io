@@ -1,0 +1,21 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<div class="jumbotron text-center" style="background-image: url('/assets/images/alvaro-reyes-unsplash.jpg'); background-position: center;">
+  <img class="rounded-circle" src="/assets/images/face_small.jpg" alt="My Face" style="height: 200px;"/>
+  <p>"Hu? What about me?"</p>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-8 col-lg-7">
+      {%
+        include_relative _includes/about.html
+        myFace=true
+      %}
+    </div>
+  </div>
+</div>
