@@ -4,8 +4,8 @@ title: 'Project: Volunteer Core'
 date:   2019-5-27 00:00:00 -0600
 tags: project
 ---
-<a class="btn btn-danger" href="https://vmt-rsvplarimer.herokuapp.com/">View Live</a>
-<a class="btn" href="https://github.com/CodeForFoco/volunteercore">View Github</a>
+<a href="https://vmt-rsvplarimer.herokuapp.com/">View Live</a>
+<a href="https://github.com/CodeForFoco/volunteercore">View Github</a>
 
 Hi! Welcome to another project showcase. Today I'm going to talk about a project I worked on for Volunteers of America, called Volunteer Core.
 

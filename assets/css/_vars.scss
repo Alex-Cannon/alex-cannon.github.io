@@ -1,8 +1,11 @@
+// Devices
 $nav-height: 50px;
 $tablet: 768px;
 $laptop: 1000px;
 $desktop: 1400px;
 
+// Theme
+$text-dark: #2C3021;
 $text-light: #fff;
 $gray-med: #ddd;
 $text-dark: #202020;
@@ -13,8 +16,15 @@ $outline: #42CAFD;
 $accent: rgb(239, 110, 50);
 $text-info: $accent;
 
+// Brand
 $github-color: rgb(36, 41, 46);
 $linkedin-color: #0077B5;
 $youtube-color: #FF0000;
 $sms-color: #5BC236;
 $email-color: #888;
+
+// Fonts
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}

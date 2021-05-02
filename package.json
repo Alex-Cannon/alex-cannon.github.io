@@ -1,0 +1,22 @@
+{
+  "name": "alex-cannon.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "./assets/index.js",
+  "scripts": {
+    "uglify": "uglifyjs-folder ./assets/js -o ./assets/dist/js/index.min.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Cannon/alex-cannon.github.io.git"
+  },
+  "author": "Alexander L. Cannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Cannon/alex-cannon.github.io/issues"
+  },
+  "homepage": "https://github.com/Alex-Cannon/alex-cannon.github.io#readme",
+  "devDependencies": {
+    "uglifyjs-folder": "^2.0.0"
+  }
+}

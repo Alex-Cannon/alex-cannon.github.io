@@ -4,8 +4,8 @@ title: 'Project: Secret Santa'
 date:   2019-05-09 00:00:00 -0600
 tags: project, portfolio
 ---
-<a class="btn btn-danger" href="https://secret-santa-13.herokuapp.com">View Live</a>
-<a class="btn" href="https://github.com/chingu-voyage7/Bears-Team-13">View Github</a>
+<a href="https://secret-santa-13.herokuapp.com">View Live</a>
+<a href="https://github.com/chingu-voyage7/Bears-Team-13">View Github</a>
 
 Howdy. I'm back again with another project showcase. Today I'd like to tell you about a Secret Santa Website I built.
 

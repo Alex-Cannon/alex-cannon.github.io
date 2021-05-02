@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm Alex Cannon, and I teach software engineering on this here blog. It's a pleasure to meet you too ;).
   I create content focused primarily on Front End Development ranging from tutorials to job advice, to fun, satirical articles. 
   Stop by when you like and I hope you find something useful!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Alex-Cannon
 
