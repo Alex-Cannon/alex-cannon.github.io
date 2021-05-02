@@ -4,7 +4,7 @@
   "description": "Personal Portfolio",
   "main": "./assets/index.js",
   "scripts": {
-    "uglify": "uglifyjs-folder ./assets/js -o ./assets/dist/js/index.min.js -c -m"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Alex-Cannon/alex-cannon.github.io#readme",
   "devDependencies": {
-    "uglifyjs-folder": "^2.0.0"
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
   }
 }
