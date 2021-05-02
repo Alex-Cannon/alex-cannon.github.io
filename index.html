@@ -2,40 +2,38 @@
 layout: default
 title: Portfolio
 ---
-<main>
-  <aside>
-    
-  </aside>
-  <article>
-    <img src="/assets/images/face_small.jpg" alt="My Face" style="height: 200px;"/>
-    <h3>I'm Alex, content creator &amp; developer. :)</h3>
-    <br/>
-    <p>
-      <a rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
-        Resume
-        <i></i>
-      </a>
-      <a href="#gallery" role="button">
-        View Work
-        <i></i>
-      </a>
+<aside>
+  
+</aside>
+<article>
+  <img src="/assets/images/face_small.jpg" alt="My Face" style="height: 200px;"/>
+  <h3>I'm Alex, content creator &amp; developer. :)</h3>
+  <br/>
+  <p>
+    <a rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
+      Resume
+      <i></i>
+    </a>
+    <a href="#gallery" role="button">
+      View Work
+      <i></i>
+    </a>
+  </p>
+  <div id="gallery">
+    <h2>Select Projects</h2>
+    <p>Click a project below to learn more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">Github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">Codepen</a> to see more projects.
     </p>
-    <div id="gallery">
-      <h2>Select Projects</h2>
-      <p>Click a project below to learn more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">Github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">Codepen</a> to see more projects.
-      </p>
 
-      {% include_relative _includes/projectSection.html %}
+    {% include_relative _includes/projectSection.html %}
 
-      {% include_relative _includes/aboutSection.html %}
+    {% include_relative _includes/aboutSection.html %}
 
-      {% include_relative _includes/testimonialsSection.html %}
+    {% include_relative _includes/testimonialsSection.html %}
 
-      <div id="contact">
-        <h2>Contact Me</h2>
-        <p>Hi! Wanna chat? Send me a message through any of the services below. I'm most active on LinkedIn and Github.</p>
-        {% include_relative _includes/socialLinks.html %}
-      </div>
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <p>Hi! Wanna chat? Send me a message through any of the services below. I'm most active on LinkedIn and Github.</p>
+      {% include_relative _includes/socialLinks.html %}
     </div>
-  </article>
-</main>
+  </div>
+</article>
