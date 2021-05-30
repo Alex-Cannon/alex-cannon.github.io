@@ -1,20 +1,23 @@
 // Devices
-$nav-height: 50px;
+$nav-height: 3rem;
 $tablet: 768px;
 $laptop: 1000px;
 $desktop: 1400px;
 
 // Theme
-$text-dark: #2C3021;
-$text-light: #fff;
-$gray-med: #ddd;
+$text-grey: #292929;
 $text-dark: #202020;
-$text-danger: #EF4A58;
-$text-info: #5985FF;
-$outline: #42CAFD;
+$text-darker: darken($text-dark, 3%);
+$text-light: #fff;
 
-$accent: rgb(239, 110, 50);
-$text-info: $accent;
+$accent-primary: #FE4820;
+$accent-secondary: #ddd;
+$accent-info: #1D7BC3;
+$accent: #F5E5A3;
+$accent-light: lighten($accent, 10%);
+$accent-dark: darken($accent, 10%);
+$accent-darker: darken($accent, 25%);
+$accent-darkest: darken($accent, 60%);
 
 // Brand
 $github-color: rgb(36, 41, 46);

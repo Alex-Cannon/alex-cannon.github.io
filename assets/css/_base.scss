@@ -1,11 +1,108 @@
+@import 'vars';
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 :root {
-    font-size: 15px;
+    font-size: 16px;
+    @media (min-width: $desktop) {
+        font-size: calc(15px + 0.1vw);
+    }
 }
 
+// Source: https://type-scale.com/
 body {
+    position: relative;
     font-family: 'Open Sans', sans-serif, serif;
+    background-color: $accent-light;
+    color: $text-dark;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1, .h1 {font-size: 2rem;}
+h2, .h2 {font-size: 1.602rem;}
+h3, .h3 {font-size: 1.424rem;}
+h4, .h4 {font-size: 1.266rem;}
+h5, .h5 {font-size: 1.125rem;}
+
+small {font-size: 0.889rem;}
+
+.main {
+    margin-top: $nav-height;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+header, section {
+    padding: 1rem;
+    @media (min-width: $tablet) {
+        padding: 1rem 10vw;
+    }
+    @media (min-width: $laptop) {
+        padding: 1rem 20vw;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.2em;
+    background-color: $text-grey;
+    color: $text-light;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+
+    &:active, &:visited, &:hover {
+        color: $text-light;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.btn__primary {
+    @extend .btn;
+    background-color: $accent-primary;
+    &:hover {
+        background-color: darken($accent-primary, 10%);
+    }
+}
+
+@keyframes btnPrimaryGlow {
+    0% { background-color: darken($accent-primary, 10%); }
+    50% { background-color: darken($accent-primary, 5%); }
+    100% { background-color: darken($accent-primary, 10%); }
+};
+.btn__primary--glow {
+    @extend .btn__primary;
+    &:hover {
+        animation-name: btnPrimaryGlow;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.btn__info {
+    @extend .btn;
+    background-color: $accent-info;
+    &:hover {
+        background-color: darken($accent-info, 10%);
+    }
 }

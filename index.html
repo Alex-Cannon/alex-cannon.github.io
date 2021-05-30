@@ -1,39 +1,37 @@
 ---
 layout: default
-title: Portfolio
 ---
-<aside>
-  
-</aside>
 <article>
-  <img src="/assets/images/face_small.jpg" alt="My Face" style="height: 200px;"/>
-  <h3>I'm Alex, content creator &amp; developer. :)</h3>
-  <br/>
-  <p>
-    <a rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
-      Resume
-      <i></i>
-    </a>
-    <a href="#gallery" role="button">
-      View Work
-      <i></i>
-    </a>
-  </p>
-  <div id="gallery">
-    <h2>Select Projects</h2>
-    <p>Click a project below to learn more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">Github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">Codepen</a> to see more projects.
-    </p>
-
+  <header class="intro background__triangle">
+    <div class="intro__content">
+      <img class="intro__selfie" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
+      <h1 class="h1 intro__title">Hi! I'm Alex.</h1>
+      <p class="h2 intro__subtitle">Full-Stack Web Developer. Front-End Focus.</p>
+      <div>
+        <a class="btn__info" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
+          Resume
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a class="btn__primary--glow" href="#projectSection" role="button">
+          View Work
+          <i class="fas fa-angle-double-down"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="portfolio-sections">
     {% include_relative _includes/projectSection.html %}
 
+    {% include_relative _includes/githubSection.html %}
+  
     {% include_relative _includes/aboutSection.html %}
-
+  
     {% include_relative _includes/testimonialsSection.html %}
-
-    <div id="contact">
+  
+    <section id="contactSection">
       <h2>Contact Me</h2>
       <p>Hi! Wanna chat? Send me a message through any of the services below. I'm most active on LinkedIn and Github.</p>
       {% include_relative _includes/socialLinks.html %}
-    </div>
+    </section>
   </div>
 </article>

@@ -1,18 +1,30 @@
-<nav>
-  <button type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span></span>
-  </button>
-  <div id="navbarNavDropdown">
-    <ul>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/portfolio">Portfolio</a></li>
-      <li>
-        <a rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
-          Resume <i class="fas fa-external-link-alt"></i>
-        </a>
-      </li>
-    </ul>
+<nav class="top-nav">
+  <div class="top-nav__content">
+    <div class="top-nav__brand">
+      <a href="/" class="top-nav__link">
+        <img class="top-nav__brand-img" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
+        <span class="top-nav__brand-title">
+          Alex Cannon Portfolio
+        </span>
+      </a>
+    </div>
+    <div id="menu-items">
+      <ul class="top-nav__list" id="menu-items__list">
+        <li><a class="top-nav__link" href="#projectSection">Projects</a></li>
+        <li><a class="top-nav__link" href="#aboutSection">About</a></li>
+        <li><a class="top-nav__link" href="#testimonialSection">Testimonials</a></li>
+        <li><a class="top-nav__link" href="#contactSection">Contact</a></li>
+        <li>
+          <a class="top-nav__link" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
+            Resume &nbsp; <i class="fas fa-external-link-alt"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn menu-btn" id="menu-btn" aria-label="Open the navigation menu">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </button>
   </div>
 </nav>
-

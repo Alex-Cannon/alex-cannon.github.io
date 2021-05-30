@@ -1,8 +1,22 @@
 ---
 ---
 
+// Common
 @import '../lib/normalize.css';
 @import 'vars';
 @import 'base';
 
-@import './_includes/embedVideo.scss';
+// Shared
+@import '_shared/backgrounds';
+@import '_includes/embedVideo';
+
+// Pages
+@import '_pages/portfolio';
+
+// Includes
+@import '_includes/nav';
+@import '_includes/embedVideo';
+@import '_includes/githubSection';
+@import '_includes/projectSection';
+@import '_includes/footer';
+
