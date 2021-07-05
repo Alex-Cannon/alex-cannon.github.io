@@ -3,21 +3,21 @@ import { laptopWidth } from './constants';
 let isNavMenuOpen = false;
 
 const renderNavBar = () => {
-    if (window.innerWidth <= laptopWidth) {
+    if (window.innerWidth < laptopWidth) {
         document.getElementById('menu-btn').classList.remove('menu-btn--hide');
         document.getElementById('menu-btn').setAttribute('aria-hidden', 'false');
         document.getElementById('menu-items').classList.add('menu-items--closed');
-        setNavLinkEventListners(true);
+        setNavLinkEventListeners(true);
     } else {
         document.getElementById('menu-btn').classList.add('menu-btn--hide');
         document.getElementById('menu-btn').setAttribute('aria-hidden', 'true');
         document.getElementById('menu-items').classList.remove('menu-items--closed');
-        setNavLinkEventListners(false);
+        setNavLinkEventListeners(false);
     }
     closeNavMenu();
 };
 
-const setNavLinkEventListners = (addEventListener) => {
+const setNavLinkEventListeners = (addEventListener) => {
     const navLinkCollection = document.getElementsByClassName('top-nav__link');
     for (let i = 0; i < navLinkCollection.length; i++) {
         if (addEventListener) {
@@ -51,7 +51,6 @@ const toggleNavMenu = () => {
 const initialize = () => {
     document.getElementById('menu-btn').addEventListener('click', toggleNavMenu);
 
-    
     window.onresize = renderNavBar;
     renderNavBar();
 };

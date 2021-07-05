@@ -1,33 +1,21 @@
-@import '../vars';
-
-.social-bar {
+.social-links {
   display: flex;
-  justify-content: center;
-  width: auto;
-  margin-bottom: 1rem;
 }
 
-.social-link-btn {
+.social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  background: $text-info;
-  height: 50px;
-  width: 50px;
-  font-size: 30px;
+  width: 48px;
+  height: 48px;
+  color: $text-light;
   &:hover {
-    background: darken($text-info, 10%);
     text-decoration: none;
-    cursor: pointer;
-  }
-  i {
-    color: $text-light;
   }
 }
 
-.bg-linkedin { 
-  background-color: $linkedin-color; 
+.bg-linkedin {
+  background-color: $linkedin-color;
   &:hover {
     background-color: darken($linkedin-color, 10%);
   }
@@ -54,5 +42,11 @@
   background-color: $email-color;
   &:hover {
     background-color: darken($email-color, 10%);
+  }
+}
+.bg-twitter {
+  background-color: $twitter-color;
+  &:hover {
+    background-color: darken($twitter-color, 10%);
   }
 }

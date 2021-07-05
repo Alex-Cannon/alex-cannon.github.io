@@ -1,3 +1,7 @@
-footer {
-  
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  color: $text-light;
+  text-align: center;
 }

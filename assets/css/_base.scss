@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     font-size: 16px;
     @media (min-width: $desktop) {
@@ -14,8 +18,8 @@
 // Source: https://type-scale.com/
 body {
     position: relative;
-    font-family: 'Open Sans', sans-serif, serif;
-    background-color: $accent-light;
+    font-family: arial, sans-serif, serif;
+    background-color: $bg-light;
     color: $text-dark;
     font-weight: 400;
     line-height: 1.5;
@@ -52,12 +56,23 @@ a {
 }
 
 header, section {
-    padding: 1rem;
-    @media (min-width: $tablet) {
-        padding: 1rem 10vw;
+    padding-bottom: 1rem;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+
+    .btn:first-of-type {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
     }
-    @media (min-width: $laptop) {
-        padding: 1rem 20vw;
+    .btn:last-of-type {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .btn:only-child {
+        border-radius: 8px;
     }
 }
 
@@ -104,5 +119,14 @@ header, section {
     background-color: $accent-info;
     &:hover {
         background-color: darken($accent-info, 10%);
+    }
+}
+
+.btn__dark {
+    @extend .btn;
+    background-color: $text-dark;
+    color: $text-light;
+    &:hover {
+        background-color: lighten($text-dark, 10%);
     }
 }

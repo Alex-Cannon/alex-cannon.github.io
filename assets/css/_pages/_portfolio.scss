@@ -1,11 +1,13 @@
 .intro {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
     color: $text-light;
-    padding-bottom: 1rem;
 }
 
 .intro__content {
+    padding: 1rem;
     text-align: center;
     h1, h2 {
         font-weight: normal;
@@ -27,4 +29,21 @@
 
 .intro__subtitle {
     font-weight: 400;
+}
+
+.portfolio-sections__wrapper {
+    @media (min-width: $tablet) {
+        padding: 0 10vw;
+    }
+    @media (min-width: $laptop) {
+        padding: 0 20vw;
+    }
+    @media (min-width: $desktop) {
+        padding: 0 25vw;
+    }
+}
+
+.portfolio-sections__content {
+    background: $text-light;
+    padding: 1rem;
 }

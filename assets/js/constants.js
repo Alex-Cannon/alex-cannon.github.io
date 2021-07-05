@@ -1,1 +1,1 @@
-export const laptopWidth = 1000;
+export const laptopWidth = 1200;

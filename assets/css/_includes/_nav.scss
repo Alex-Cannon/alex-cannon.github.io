@@ -10,14 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 3rem;
     height: $nav-height;
     background: $text-dark;
-    border-bottom: 1px solid $text-grey;
     color: $text-dark;
-    @media screen and (min-width: $laptop) {
-        justify-content: start;
-    }
+}
+
+.top-nav__content--main {
+    display: flex;
+    height: 100%;
 }
 
 .top-nav__brand {
@@ -29,12 +29,12 @@
 .top-nav__brand-img {
     height: 100%;
     border-radius: 100%;
-    padding: 0.25rem;
-    margin-right: 0.75rem;
+    padding: 4px;
+    margin-right: 8px;
 }
 
 .top-nav__brand-title {
-    padding: 0 0.8rem;
+    padding: 0 8px;
     border: none;
 }
 
@@ -52,13 +52,19 @@
     }
 }
 
+#menu-items {
+    @media screen and (min-width: $laptop) {
+        height: $nav-height;
+    }
+}
+
 .menu-items {
     z-index: 10;
     position: absolute;
     top: $nav-height;
     width: 100vw;
     background-color: $text-dark;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     &--closed {
         @extend .menu-items;
         left: 2000px;
@@ -82,7 +88,7 @@
             padding: 0;
         }
         .top-nav__list > li {
-            border-bottom: 1px solid $text-grey;
+            border-top: 1px solid $text-grey;
         }
         .top-nav__link {
             padding: 0.5rem 0;
@@ -98,13 +104,9 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    border-right: 1px solid $text-grey;
     & > li {
         height: 100%;
-        &:last-of-type {
-            & > a {
-                border-right: 1px solid $text-grey;
-            }
-        }
     }
     @media screen and (min-width: $laptop) {
         flex-direction: row;   
@@ -148,4 +150,36 @@
 
 .bar3 {
     margin-bottom: 0;
+}
+
+.top-nav__social--mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $nav-height;
+    & .social-links {
+        height: $nav-height;
+    }
+    & .social-icon {
+        height: 100%;
+        width: $nav-height;
+    }
+    @media screen and (min-width: $laptop) {
+        display: none;
+    }
+}
+
+.top-nav__social--desktop {
+    display: none;
+    height: 100%;
+    @media screen and (min-width: $laptop) {
+        display: inline-block;
+    }
+    & .social-links {
+        height: 100%;
+    }
+    & .social-icon {
+        height: 100%;
+        width: $nav-height;
+    }
 }

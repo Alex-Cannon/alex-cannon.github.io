@@ -5,8 +5,8 @@ layout: default
   <header class="intro background__triangle">
     <div class="intro__content">
       <img class="intro__selfie" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
-      <h1 class="h1 intro__title">Hi! I'm Alex.</h1>
-      <p class="h2 intro__subtitle">Full-Stack Web Developer. Front-End Focus.</p>
+      <h1 class="intro__title">Hi! I'm Alex.</h1>
+      <p class="h3 intro__subtitle">Full-Stack Web Developer. Front-End Focus.</p>
       <div>
         <a class="btn__info" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
           Resume
@@ -19,19 +19,15 @@ layout: default
       </div>
     </div>
   </header>
-  <div class="portfolio-sections">
-    {% include_relative _includes/projectSection.html %}
-
-    {% include_relative _includes/githubSection.html %}
+  <div class="portfolio-sections__wrapper background__cross">
+    <div class="portfolio-sections__content">
+      {% include_relative _includes/projectSection.html %}
   
-    {% include_relative _includes/aboutSection.html %}
+      {% include_relative _includes/aboutSection.html %}
+    
+      {% include_relative _includes/testimonialsSection.html %}
   
-    {% include_relative _includes/testimonialsSection.html %}
-  
-    <section id="contactSection">
-      <h2>Contact Me</h2>
-      <p>Hi! Wanna chat? Send me a message through any of the services below. I'm most active on LinkedIn and Github.</p>
-      {% include_relative _includes/socialLinks.html %}
-    </section>
+      {% include_relative _includes/contactSection.html %}
+    </div>
   </div>
 </article>

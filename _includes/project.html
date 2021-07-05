@@ -1,23 +1,23 @@
-<div class="project">
-  <div class="card">
+<div class="project" role="region" aria-label="{{include.title}} Video Showcase">
+  <div class="project__wrapper">
     {% include embedVideo.html
       src=include.video_embedded_link
+      ariaLabel=include.title
       class='card-img-top'
     %}
-    <div>
-      <h5>{{ include.title }}</h5>
-      <p>Role: {{ include.role }}</p>
-    </div>
-    <div>
+    <p class="h5 project__title">{{ include.title }}</p>
+    <p>Role: {{ include.role }}</p>
+    <div class="btn-group">
       {% if include.href %}
-        <a href="{{include.href}}" rel="noreferer noopener">
+        <a class="btn__primary" href="{{include.href}}" target="_blank" rel="noreferer noopener">
           View Live
+          <i class="fas fa-external-link-alt"></i>
         </a>
       {% endif %}
       {% if include.sourcehref %}
-        <a href="{{include.sourcehref}}">
-          Source
-          <i></i>
+        <a class="btn__dark" href="{{include.sourcehref}}" target="_blank" rel="noreferer noopener">
+          View Code
+          <i class="fas fa-external-link-alt"></i>
         </a>
       {% endif %}
     </div>

@@ -1,7 +1,7 @@
 // Devices
 $nav-height: 3rem;
 $tablet: 768px;
-$laptop: 1000px;
+$laptop: 1200px;
 $desktop: 1400px;
 
 // Theme
@@ -9,15 +9,16 @@ $text-grey: #292929;
 $text-dark: #202020;
 $text-darker: darken($text-dark, 3%);
 $text-light: #fff;
+$text-grey2: #0E141B;
 
-$accent-primary: #FE4820;
+$accent-primary: #DA2A07;
 $accent-secondary: #ddd;
-$accent-info: #1D7BC3;
+$accent-info: #1B70B1;
 $accent: #F5E5A3;
-$accent-light: lighten($accent, 10%);
-$accent-dark: darken($accent, 10%);
-$accent-darker: darken($accent, 25%);
-$accent-darkest: darken($accent, 60%);
+//$accent-light: #fff;
+
+// Background
+$bg-light: #fff;
 
 // Brand
 $github-color: rgb(36, 41, 46);
@@ -25,6 +26,7 @@ $linkedin-color: #0077B5;
 $youtube-color: #FF0000;
 $sms-color: #5BC236;
 $email-color: #888;
+$twitter-color: rgb(29, 161, 242);
 
 // Fonts
 @font-face {

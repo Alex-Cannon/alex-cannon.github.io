@@ -3,7 +3,7 @@
   width: 100%;
   padding-top: 56.25%;
   margin-bottom: 1rem;
-  border: 1px solid $accent-secondary;
+  border: 2px solid darken($text-light, 10%);
 }
 
 .iframe-container__iframe {
