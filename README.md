@@ -1,5 +1,5 @@
 # alex-cannon.github.io
-Welcome to my Blog and Portfolio! This site is built with Jekyll and hosted by github pages.
+Welcome to my personal portfolio! This site is built with Jekyll and hosted by github pages.
 
 Want to create your own blog hosted by github pages?
 [Get started](https://jekyllrb.com/) with the Jekyll docs.
