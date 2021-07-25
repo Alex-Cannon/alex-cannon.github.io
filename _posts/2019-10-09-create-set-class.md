@@ -15,7 +15,7 @@ _this.add function should return true if the value is successfully added and fal
 ### My Solution:
 
 <pre>
-    <code class="language-javascript">
+    <code>
         function Set() {
             // the var collection will hold our set
             var collection = [];

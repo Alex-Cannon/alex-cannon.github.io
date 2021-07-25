@@ -1,0 +1,26 @@
+.github-section__wrapper {
+    position: relative;
+    display: block;
+    height: 120px;
+    padding: 0;
+}
+
+.github-section__content {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $text-light;
+    text-align: center;
+}
+
+.github-section__stats {
+    display: block;
+    text-align: center;
+}

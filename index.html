@@ -1,16 +1,33 @@
 ---
 layout: default
-title: Home
 ---
-
-{% include jumbotronLanding.html %}
-
-<div class="container-fluid">
-  <div class="row justify-content-center">
-    <div class="col-sm-12 col-md-8 col-lg-6">
-      <h2>Recent Posts</h2>
-
-      {% include feed.html %}
+<article>
+  <header class="intro background__triangle">
+    <div class="intro__content">
+      <img class="intro__selfie" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
+      <h1 class="intro__title">Hi! I'm Alex.</h1>
+      <p class="h3 intro__subtitle">Full-Stack Web Developer. Front-End Focus.</p>
+      <div>
+        <a class="btn__info" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
+          Resume
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a class="btn__primary--glow" href="#projectSection" role="button">
+          View Work
+          <i class="fas fa-angle-double-down"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="portfolio-sections__wrapper background__cross">
+    <div class="portfolio-sections__content">
+      {% include_relative _includes/projectSection.html %}
+  
+      {% include_relative _includes/aboutSection.html %}
+    
+      {% include_relative _includes/testimonialsSection.html %}
+  
+      {% include_relative _includes/contactSection.html %}
     </div>
   </div>
-</div>
+</article>

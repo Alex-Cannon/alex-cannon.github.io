@@ -1,0 +1,25 @@
+{
+  "name": "alex-cannon.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "./assets/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Cannon/alex-cannon.github.io.git"
+  },
+  "author": "Alexander L. Cannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Cannon/alex-cannon.github.io/issues"
+  },
+  "homepage": "https://github.com/Alex-Cannon/alex-cannon.github.io#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

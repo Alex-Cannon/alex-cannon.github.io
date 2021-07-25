@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Alex Cannon Blog
+title: Alex Cannon's Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Alex Cannon, and I teach software engineering on this here blog. It's a pleasure to meet you too ;).
-  I create content focused primarily on Front End Development ranging from tutorials to job advice, to fun, satirical articles. 
-  Stop by when you like and I hope you find something useful!
-baseurl: "" # the subpath of your site, e.g. /blog
+  Hi! I'm Alex Cannon. This is my web developer portfolio.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Alex-Cannon
 

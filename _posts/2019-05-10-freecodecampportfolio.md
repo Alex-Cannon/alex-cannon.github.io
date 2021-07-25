@@ -4,8 +4,8 @@ title: 'Project: FreeCodeCamp Portfolio'
 date:   2019-05-10 00:00:00 -0600
 tags: project, portfolio
 ---
-<a class="btn btn-danger" href="https://freecodecamp-portfolio.glitch.me/">View Live</a>
-<a class="btn" href="https://github.com/Alex-Cannon/freeCodeCampPortfolio">View Github</a>
+<a href="https://freecodecamp-portfolio.glitch.me/">View Live</a>
+<a href="https://github.com/Alex-Cannon/freeCodeCampPortfolio">View Github</a>
 
 Hi! Welcome to another post. Today I'll talk a little about FreeCodeCamp.
 
