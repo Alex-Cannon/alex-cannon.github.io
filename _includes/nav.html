@@ -1,30 +1,28 @@
 <nav class="top-nav">
   <div class="top-nav__content">
-    <div class="top-nav__content--main">
-      <div class="top-nav__brand">
-        <a href="/" class="top-nav__link">
-          <img class="top-nav__brand-img" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
-          <span class="top-nav__brand-title">
-            Alex Cannon Portfolio
-          </span>
-        </a>
-      </div>
-      <div id="menu-items">
-        <ul class="top-nav__list" id="menu-items__list">
-          <li><a class="top-nav__link" href="#projectSection">Projects</a></li>
-          <li><a class="top-nav__link" href="#aboutSection">About</a></li>
-          <li><a class="top-nav__link" href="#testimonialSection">Recommendations</a></li>
-          <li><a class="top-nav__link" href="#contactSection">Contact</a></li>
-          <li>
-            <a class="top-nav__link" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
-              Resume &nbsp; <i class="fas fa-external-link-alt"></i>
-            </a>
-          </li>
-          <li class="top-nav__social--mobile">
-            {% include socialLinks.html size="fa-lg" %}
-          </li>
-        </ul>
-      </div>
+    <div class="top-nav__brand">
+      <a href="/" class="top-nav__link--brand">
+        <img class="top-nav__brand-img" src="/assets/images/face_small.jpg" alt="Picture of Alex Cannon"/>
+        <span class="top-nav__brand-title">
+          Alex Cannon Portfolio
+        </span>
+      </a>
+    </div>
+    <div id="menu-items" aria-hidden="true">
+      <ul class="top-nav__list" id="menu-items__list">
+        <li><a class="top-nav__link" href="#projectSection">Projects</a></li>
+        <li><a class="top-nav__link" href="#aboutSection">About</a></li>
+        <li><a class="top-nav__link" href="#testimonialSection">Recommendations</a></li>
+        <li><a class="top-nav__link" href="#contactSection">Contact</a></li>
+        <li>
+          <a class="top-nav__link" rel="noreferrer noopener" target="_blank" href="/assets/alexander_cannon_resume.pdf">
+            Resume  <i class="ml-1 fas fa-external-link-alt"></i>
+          </a>
+        </li>
+        <li class="top-nav__social--mobile">
+          {% include socialLinks.html size="fa-lg" %}
+        </li>
+      </ul>
     </div>
     <div class="top-nav__social--desktop">
       {% include socialLinks.html size="fa-lg" %}

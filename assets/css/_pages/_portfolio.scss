@@ -46,4 +46,11 @@
 .portfolio-sections__content {
     background: $text-light;
     padding: 1rem;
+
+    @media screen and (min-width: $tablet) {
+        padding: 1rem 2rem;
+    }
+    @media screen and (min-width: $laptop) {
+        padding: 1rem 4rem;
+    }
 }

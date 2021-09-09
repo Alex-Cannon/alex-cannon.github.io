@@ -11,3 +11,10 @@
     background: radial-gradient(circle, transparent 20%, $text-light 20%, $text-light 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, $text-light 20%, $text-light 80%, transparent 80%, transparent) 30px 30px, linear-gradient(darken($text-light, 5%) 2.4000000000000004px, transparent 2.4000000000000004px) 0 -1.2000000000000002px, linear-gradient(90deg, darken($text-light, 5%) 2.4000000000000004px, $text-light 2.4000000000000004px) -1.2000000000000002px 0;
     background-size: 60px 60px, 60px 60px, 30px 30px, 30px 30px;
 }
+
+.background__diagonal {
+    // Source: https://www.magicpattern.design/tools/css-backgrounds
+    background-color: $text-light;
+    opacity: 0.8;
+    background: repeating-linear-gradient( 45deg, darken($text-light, 5%), darken($text-light, 5%) 5px, $text-light 5px, $text-light 25px );
+}
