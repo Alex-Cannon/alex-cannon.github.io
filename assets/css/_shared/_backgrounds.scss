@@ -16,5 +16,5 @@
     // Source: https://www.magicpattern.design/tools/css-backgrounds
     background-color: $text-light;
     opacity: 0.8;
-    background: repeating-linear-gradient( 45deg, darken($text-light, 5%), darken($text-light, 5%) 5px, $text-light 5px, $text-light 25px );
+    background: repeating-linear-gradient( 45deg, darken($text-light, 5%), darken($text-light, 5%) 3px, $text-light 3px, $text-light 25px );
 }

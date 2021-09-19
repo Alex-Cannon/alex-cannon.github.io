@@ -4,19 +4,18 @@
   <p>Click a project below to learn more. View my <a href="https://github.com/Alex-Cannon" target="_blank" rel="noopener noreferrer">Github</a> or <a href="https://codepen.io/Alex_Cannon/" target="_blank" rel="noopener noreferrer">Codepen</a> to see more projects.
   </p>
   <div class="projects">
+    {% include project.html
+      video_embedded_link='https://www.youtube.com/embed/lnMl32AWRog'
+      title='Video: Best testing utility for React'
+    %}
     {% include project.html 
       video_embedded_link='https://www.youtube.com/embed/O8uFRR9L13M'
-      src='/assets/images/cover_codebin.jpg'
-      alt='Online Webpage Editor'
-      readhref='/post/codebin'
       sourcehref='https://github.com/Alex-Cannon/codebin'
       title='Online Webpage Editor'
       role='Full-Stack Developer'
     %}
     {% include project.html 
       video_embedded_link='https://www.youtube.com/embed/VwVT3WU3NwY'
-      src='/assets/images/cover_pfa.png'
-      alt='Poudre Fire Authority Service Directory'
       href='http://fd-servicedirectory.herokuapp.com/'
       sourcehref='https://github.com/CodeForFoco/fd-servicedirectory'
       title='P.F.A. Non-Profit Directory'
@@ -24,21 +23,9 @@
     %}
     {% include project.html
       video_embedded_link='https://www.youtube.com/embed/GP26YeVO-u8'
-      src='/assets/images/cover_secretsanta.png'
-      alt='Secret Santa Online'
-      readhref='/post/secretsanta'
       sourcehref='https://github.com/Alex-Cannon/Bears-Team-13'
       title='Secret Santa Shop'
       role='Lead Full-Stack Developer'
-    %}
-    {% include project.html
-      video_embedded_link='https://www.youtube.com/embed/nnv0QISIV_M'
-      src='/assets/images/cover_vc.png'
-      alt='Volunteer Core'
-      readhref='/post/volunteer-core'
-      sourcehref='https://github.com/CodeForFoco/volunteercore'
-      title='Volunteers for America "CRM"'
-      role='Front-End Developer'
     %}
   </div>
 </section>

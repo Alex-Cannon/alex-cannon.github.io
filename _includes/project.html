@@ -6,7 +6,9 @@
       class='card-img-top'
     %}
     <p class="h5 project__title">{{ include.title }}</p>
-    <p>Role: {{ include.role }}</p>
+    {% if include.role %}
+      <p>Role: {{ include.role }}</p>
+    {% endif %}
     <div class="btn-group">
       {% if include.href %}
         <a class="btn__primary" href="{{include.href}}" target="_blank" rel="noreferer noopener">
